@@ -10,7 +10,11 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              <img id="profile-img" src="https://i.imgur.com/t03GKO3.jpg" />
+              <img
+                id="profile-img"
+                src="https://i.imgur.com/t03GKO3.jpg"
+                alt="Portrait of the author"
+              />
               Skilled and motivated full-stack developer with a passion for web
               development and new technologies.
               <br />I am a former business owner with a background in insurance.
