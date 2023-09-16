@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div>
       <header>
-        <ul id="menu" className="shadow">
+        <ul id="Navbar" className="shadow">
           <li>
             <a href="#about">About</a>
           </li>

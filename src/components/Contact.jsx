@@ -6,7 +6,7 @@ function ContactForm() {
     return <p>Thanks for joining!</p>
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form id="contactForm" onSubmit={handleSubmit}>
       <label htmlFor="email">Email Address</label>
       <input id="email" type="email" name="email" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
