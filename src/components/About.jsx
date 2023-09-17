@@ -3,16 +3,15 @@ import React from 'react'
 function About() {
   return (
     <div id="about">
+      <img id="profile-img" src="https://i.imgur.com/t03GKO3.jpg" />
       <div className="about-me-container">
         <div className="row">
           <div className="col-md-4">
-            <h2 className="about-me-heading">About Me</h2>
+            {/* <h2 className="about-me-heading">About Me</h2> */}
           </div>
           <div className="col-md-8">
             <p>
-              <img id="profile-img" src="https://i.imgur.com/t03GKO3.jpg" />
-              Skilled and motivated full-stack developer with a passion for web
-              development and new technologies.
+              I am a full stack devleoper with a passion for learning and
               <br />I am a former business owner with a background in insurance.
               I have a strong business acumen and a passion for technology. I am
               a coding boot camp graduate with a strong desire to learn and
