@@ -10,13 +10,10 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              I am a full stack developer with a passion for learning and
-              <br />I am a former business owner with a background in insurance.
-              I have a strong business acumen and a passion for technology. I am
-              a coding boot camp graduate with a strong desire to learn and
-              grow. I am a team player and a problem solver. I am looking for a
-              position where I can utilize my skills and experience to help the
-              company grow and provide service to the users.
+              I am a full stack developer with a passion for building
+              applications that benefit people's lives. I have experience in
+              creating full stack applications with json or oauth login
+              capability. I can manage front and back end development.
             </p>
           </div>
         </div>
