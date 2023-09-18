@@ -4,8 +4,12 @@ function Lead() {
   return (
     <div id="lead">
       <div id="lead-content">
-        <h1>Luke Hufton</h1>
+        <h1>
+          Luke <br />
+          Hufton
+        </h1>
         <h2>Full Stack Developer</h2>
+        <p>Memphis, TN</p>
         <a
           href="images/Resume.pdf"
           download="resume.pdf"
