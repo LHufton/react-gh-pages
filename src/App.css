@@ -73,7 +73,7 @@ main {
   grid-template-columns: repeat(2, 1fr); 
   grid-template-rows: repeat(2, auto);
   grid-gap: 20px; /* Adjust the gap between grid items */
-/* } */ */
+/* } */ 
 
 .projects {
   background-color: rgba(181, 194, 195, 0.834);
