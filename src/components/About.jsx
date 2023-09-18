@@ -6,15 +6,11 @@ function About() {
       <div className="about-me-container">
         <div className="row">
           <div className="col-md-4">
-            <h2 className="about-me-heading">About Me</h2>
+            {/* <h2 className="about-me-heading">About Me</h2> */}
           </div>
           <div className="col-md-8">
             <p>
-              <img
-                id="profile-img"
-                src="https://i.imgur.com/t03GKO3.jpg"
-                alt="Portrait of the author"
-              />
+              <img id="profile-img" src="https://i.imgur.com/t03GKO3.jpg" />
               Skilled and motivated full-stack developer with a passion for web
               development and new technologies.
               <br />I am a former business owner with a background in insurance.
