@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div id="about">
+    <div id="About">
       <div className="about-me-container">
         <div className="row">
           <div className="col-md-4">

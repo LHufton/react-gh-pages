@@ -1,50 +1,42 @@
 import React from 'react'
 
-function Project() {
+const Project = () => {
   return (
-    <div id="projects" className="background-alt">
-      <h2 className="heading">Projects</h2>
+    <div id="Projects" className="background-alt">
+      <h2 className="heading">General Assembly Projects</h2>
       <div className="container">
         <div className="row">
           <div className="project shadow-large">
             {/* github link until deployed then replace */}
-            <div className="project-info">
+            <div id="shareYourThoughts">
               <h3>Share your thoughts</h3>
-              <img src="images/ShareThoughts.jpeg" alt="ShareYourThoughts" />
+              {/* <img src="images/DeepThought.jpeg" alt="Deep Thought" /> */}
               <p>
-                A MERN stack application designed to encourage better
-                communication between people. This is a social media app where
-                users can create a profile, post their thoughts, and comment on
-                other users' posts.
-                <br />
-                <h4>Active project</h4>
+                I developed this ME stack application to allow users to share
+                their thoughts with the world and to encourage freewriting and
+                journaling.
               </p>
             </div>
           </div>
 
           <div className="project shadow-large">
             <a
-              href="https://propip23.github.io/Simon/"
+              href="https://lhufton.github.io/Simon/"
               className="project-image"
             >
               <p>
-                <a href="https://propip23.github.io/Simon/">View Project</a>
+                <a href="https://lhufton.github.io/Simon/">View Project</a>
               </p>
             </a>
             <div className="project-info">
               <h3>Simon</h3>
-              <img src="images/simon.png" alt="Simon" />
+              <img src="images/Simon.png" alt="Simon" />
               <p>
-                I built a Simon game using Javascript, HTML, and CSS after two
-                weeks of instruction. This is a digital version of the classic
-                board game of the same name. The game is a memory game where the
-                user has to remember the sequence of colors that are shown to
-                them. The game also has a high score display to show the user's
-                best score.
-                <br />
+                The classic memory game developed using javascript, html and
+                css.
               </p>
               <p>
-                <a href="https://propip23.github.io/Simon/">View Project</a>
+                <a href="https://lhufton.github.io/Simon/">View Project</a>
               </p>
             </div>
           </div>
@@ -54,11 +46,8 @@ function Project() {
               <h3>"Tic-Tac-Toe"</h3>
               <img src="images/TTT.png" alt="Tic-Tac-Toe" />
               <p>
-                I built a basic in-browser game using Javascript, HTML, and CSS
-                after one week of instruction at General Assembly. The game is a
-                two-player game where the user has to get three cells in a row
-                to win.
-                <br />
+                I used javascript, html and css to develop this classic
+                two-player game.
               </p>
               <p>
                 <a href="https://unit1ttt-app.surge.sh/">View Project</a>

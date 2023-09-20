@@ -1,13 +1,13 @@
 import './App.css'
-import Nav from './components/Nav'
+import Nav from './components/Navbar'
 import Lead from './components/Lead'
 import React, { useEffect } from 'react'
 import About from './components/About'
 import Project from './components/Project'
-import Skill from './components/Skill'
-import Contact from './components/Contact' // Import the Contact component
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Resume from './components/Resume' // Import the Resume component
+import Resume from './components/Resume'
 
 const App = () => {
   useEffect(() => {
@@ -73,7 +73,7 @@ const App = () => {
 
     // Function to scroll to the Contact section
     const scrollToContact = () => {
-      const scrollDistance = document.getElementById('contact').offsetTop
+      const scrollDistance = document.getElementById('Contact').offsetTop
 
       window.scrollTo({
         top: scrollDistance,
@@ -86,14 +86,14 @@ const App = () => {
       }
     }
 
-    const contactLink = document.querySelector('a[href="#contact"]')
-    if (contactLink) {
-      contactLink.addEventListener('click', scrollToContact)
+    const ContactLink = document.querySelector('a[href="#Contact"]')
+    if (ContactLink) {
+      ContactLink.addEventListener('click', scrollToContact)
     }
 
     // Function to scroll to the Resume section
     const scrollToResume = () => {
-      const scrollDistance = document.getElementById('resume').offsetTop
+      const scrollDistance = document.getElementById('Resume').offsetTop
 
       window.scrollTo({
         top: scrollDistance,
@@ -106,7 +106,7 @@ const App = () => {
       }
     }
 
-    const resumeLink = document.querySelector('a[href="#resume"]')
+    const resumeLink = document.querySelector('a[href="#Resume"]')
     if (resumeLink) {
       resumeLink.addEventListener('click', scrollToResume)
     }
@@ -119,9 +119,9 @@ const App = () => {
       <Nav />
       <Lead />
       <About />
-      <Resume />
       <Project />
-      <Skill />
+      <Skills />
+      <Resume />
       <Contact />
       <Footer />
     </React.StrictMode>

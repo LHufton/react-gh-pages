@@ -4,9 +4,10 @@ function Resume() {
   useEffect(() => {
     // Scroll to resume section when the "Resume" link is clicked in the navbar
     const scrollToResume = () => {
-      const resumeSection = document.getElementById('resume')
+      const resumeSection = document.getElementById('Resume')
       if (resumeSection) {
         const scrollDistance = resumeSection.offsetTop
+        console.log('Scrolling to resume:', scrollDistance) // Add this line
         window.scrollTo({
           top: scrollDistance,
           behavior: 'smooth'
@@ -14,14 +15,14 @@ function Resume() {
       }
     }
 
-    const resumeLink = document.querySelector('a[href="#resume"]')
+    const resumeLink = document.querySelector('a[href="#Resume"]')
     if (resumeLink) {
       resumeLink.addEventListener('click', scrollToResume)
     }
   }, [])
 
   return (
-    <div className="intro">
+    <div id="Resume" className="intro">
       <h2>Luke Hufton</h2>
       <h6>Resume</h6>
 
@@ -43,7 +44,6 @@ function Resume() {
         <h3>Skills</h3>
         <ul>
           <li>JavaScript</li>
-          {/* Add your skills here */}
         </ul>
       </div>
     </div>

@@ -6,19 +6,19 @@ function Navbar() {
       <header>
         <ul id="Navbar" className="shadow">
           <li>
-            <a href="#about">About</a>
+            <a href="#About">About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#Projects">Projects</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li>
-            <a href="#resume">Resume</a> {/* Add this Resume link */}
+            <a href="#Resume">Resume</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </header>

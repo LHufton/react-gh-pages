@@ -11,7 +11,7 @@ function Lead() {
         <h2>Full Stack Developer</h2>
         <p>Memphis, TN</p>
         <a
-          href="images/Resume.pdf"
+          href="./images/Resume.pdf"
           download="resume.pdf"
           className="btn-rounded-white"
         >
