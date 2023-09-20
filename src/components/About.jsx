@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+const About = () => {
   return (
     <div id="About">
       <div className="about-me-container">
@@ -10,10 +10,8 @@ function About() {
           </div>
           <div className="col-md-8">
             <p>
-              I am a full stack developer with a passion for building
-              applications that benefit people's lives. I have experience in
-              creating full stack applications with json or oauth login
-              capability. I can manage front and back end development.
+              I like to create simple to understand solutions for complex
+              problems.
             </p>
           </div>
         </div>

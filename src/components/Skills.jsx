@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skill() {
+const Skills = () => {
   return (
     <div id="Skills">
       <h2 className="heading">Skills</h2>
@@ -23,4 +23,4 @@ function Skill() {
   )
 }
 
-export default Skill
+export default Skills

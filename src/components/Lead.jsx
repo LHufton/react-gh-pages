@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Lead() {
+const Lead = () => {
   return (
     <div id="lead">
       <div id="lead-content">

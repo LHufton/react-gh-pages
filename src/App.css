@@ -93,6 +93,13 @@ main {
   height: auto;
 }
 
+#shareYourThoughts {  
+  position: relative;
+  background-color: rgba(181, 194, 195, 0.834);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 #Navbar {
   display: flex;
@@ -132,9 +139,9 @@ main {
 
 #skills li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: center;
   width: 100px;
   height: 100px;
@@ -156,12 +163,14 @@ main {
   align-items: center;
 }
 
-
-/* Projects */
-#shareYourThoughts {  
-  position: relative;
-  background-color: rgba(181, 194, 195, 0.834);
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+/* Contact */
+.contact-heading {  
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-self: unset;
+  justify-content: center;
+  align-items: center; 
 }

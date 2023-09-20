@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-function Resume() {
+const Resume = () => {
   useEffect(() => {
     // Scroll to resume section when the "Resume" link is clicked in the navbar
     const scrollToResume = () => {
