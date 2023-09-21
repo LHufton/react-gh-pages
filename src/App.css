@@ -174,3 +174,9 @@ main {
   justify-content: center;
   align-items: center; 
 }
+
+
+#Skills ul {
+  list-style-type: none;
+  padding: 0;
+}

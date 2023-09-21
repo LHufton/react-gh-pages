@@ -20,12 +20,6 @@ const Lead = () => {
       </div>
 
       <div id="lead-overlay"></div>
-
-      <div id="lead-down">
-        <span>
-          <i className="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-      </div>
     </div>
   )
 }
