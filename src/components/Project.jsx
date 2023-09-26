@@ -3,8 +3,8 @@ import React from 'react'
 const Project = () => {
   return (
     <div id="Projects" className="background-alt">
-      <h2 className="heading">General Assembly Projects</h2>
-      <div className="container">
+      <h2>General Assembly Projects</h2>
+      <div className="GA-projects-container">
         <div className="row">
           <div className="project shadow-large">
             {/* github link until deployed then replace */}
@@ -12,7 +12,7 @@ const Project = () => {
               <h3>Share your thoughts</h3>
               {/* <img src="images/DeepThought.jpeg" alt="Deep Thought" /> */}
               <p>
-                I developed this ME stack application to allow users to share
+                I developed this MERN stack application to allow users to share
                 their thoughts with the world and to encourage freewriting and
                 journaling.
               </p>
