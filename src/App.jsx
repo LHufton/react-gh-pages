@@ -119,8 +119,8 @@ const App = () => {
       <Nav />
       <Lead />
       <About />
-      <Project />
       <Skills />
+      <Project />
       <Resume />
       <Contact />
       <Footer />
