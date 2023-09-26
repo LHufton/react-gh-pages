@@ -8,7 +8,7 @@ const Project = () => {
         <div className="row">
           <div className="project shadow-large">
             {/* github link until deployed then replace */}
-            <div id="shareYourThoughts">
+            <div id="GA-Projects">
               <h3>Share your thoughts</h3>
               {/* <img src="images/DeepThought.jpeg" alt="Deep Thought" /> */}
               <p>

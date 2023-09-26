@@ -20,7 +20,7 @@ main {
   padding: 2rem;
 }
 
-#profile {
+#profile-img {
   border-radius: 13%;
   width: 185px;
   height: 185px;
@@ -129,7 +129,7 @@ main {
 #lead {
   display: flex;
   flex-direction: row;
-  align-items: row;
+  align-items: row-reverse;
   justify-content: center;
   text-align: center;
   width: 100px;
@@ -140,7 +140,7 @@ main {
   font-size: large;
   font-style: none;
   margin: 10px;
-  padding:30px;
+  padding: 10px;
 }
 
 #lead-content h1 {
@@ -148,13 +148,6 @@ main {
   justify-content: center;
   align-items: center;
   text-align: flex-start;
-}
-
-#lead-content p {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  text-align: row;
 }
 
 /* Styling for the container */
@@ -179,9 +172,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  background-color: white;
   padding: 10px;
-  color: black;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
