@@ -126,6 +126,13 @@ main {
   padding: 10px;
 }
 
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #555;
+}
 #lead {
   display: flex;
   flex-direction: row;
