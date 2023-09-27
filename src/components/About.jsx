@@ -3,14 +3,21 @@ import React from 'react'
 const About = () => {
   return (
     <div id="About">
-      <div className="about-me-container">
-        <div className="row">
-          <div className="col-md-4">
-            {/* <h2 className="about-me-heading">About Me</h2> */}
-          </div>
-          <div className="col-md-8"></div>
-        </div>
-      </div>
+      <h2 className="heading">Luke Hufton</h2>
+      <h6>Fullstack Software Developer</h6>
+
+      <h4>Finding simple solutions to complex problems.</h4>
+      <img id="Profile" src="/images/Profile.jpeg" alt="Profile" />
+
+      <div className="about-me-container"></div>
+      <p>Memphis, TN</p>
+      <a
+        href="/images/Resume.pdf"
+        download="resume.pdf"
+        className="btn-rounded-white"
+      >
+        Download Resumé
+      </a>
     </div>
   )
 }

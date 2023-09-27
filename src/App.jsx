@@ -1,7 +1,7 @@
 import './App.css'
-import Nav from './components/Navbar'
-import Lead from './components/Lead'
 import React, { useEffect } from 'react'
+import Nav from './components/Navbar'
+// import Lead from './components/Lead'
 import About from './components/About'
 import Project from './components/Project'
 import Skills from './components/Skills'
@@ -117,7 +117,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <Nav />
-      <Lead />
+      {/* <Lead /> */}
       <About />
       <Resume />
       <Skills />
