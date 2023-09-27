@@ -31,7 +31,7 @@ body {
   color: black;
   justify-content: flex-start;
   align-items: flex-start;
-  text-align: center;
+  text-align: flex-start;
   font-size: 1.2rem;
   line-height: 1.5;
 }
