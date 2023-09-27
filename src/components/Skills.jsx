@@ -19,12 +19,20 @@ const Skills = () => {
     <div id="Skills">
       <h2 className="heading">Skills</h2>
       <ul>
-        <li>
-          <FontAwesomeIcon icon={faJs} /> JavaScript
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faPython} /> Python
-        </li>
+        <div>
+          <li>
+            <FontAwesomeIcon icon={faJs} /> JavaScript
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faHtml5} /> HTML 5
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCss3Alt} /> CSS
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPython} /> Python
+          </li>
+        </div>
         <li>
           <FontAwesomeIcon icon={faReact} /> React
         </li>
@@ -33,12 +41,6 @@ const Skills = () => {
         </li>
         <li>
           <FontAwesomeIcon icon={faNode} /> Node.js
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faHtml5} /> HTML 5
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faCss3Alt} /> CSS
         </li>
         <li>
           <FontAwesomeIcon icon={faJava} /> Java
