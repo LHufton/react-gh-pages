@@ -7,7 +7,7 @@ const Contact = () => {
   if (state.succeeded) {
     return <p>Thanks for joining!</p>
   }
-
+  // Formspree contact form
   return (
     <form id="Contact" onSubmit={handleSubmit}>
       <label htmlFor="email">Email Address</label>

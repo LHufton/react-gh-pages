@@ -119,9 +119,9 @@ const App = () => {
       <Nav />
       <Lead />
       <About />
-      <Project />
-      <Skills />
       <Resume />
+      <Skills />
+      <Project />
       <Contact />
       <Footer />
     </React.StrictMode>

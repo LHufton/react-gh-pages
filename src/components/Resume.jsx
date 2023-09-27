@@ -32,10 +32,7 @@ const Resume = () => {
 
       <div className="experience">
         <h4>Work Experience</h4>
-        <h5>
-          <strong>Farmers Insurance</strong> <br />
-          <em>Insurance Producer</em>
-        </h5>
+        <h3>Farmers Insurance</h3>
         <p>
           Collierville, TN 09/21 - 03/23 <br />
           Obtained licensure to sell property, casualty, and health insurance.
@@ -43,8 +40,11 @@ const Resume = () => {
           qualified customers. Conducted data analysis to generate new leads and
           marketing materials.
         </p>
-        <h5>Hufton Hybrid Roofing and Restoration</h5>
-        <h4></h4>
+        <h3>Hufton Hybrid Roofing and Restoration</h3>
+
+        <h5>
+          <em>Owner</em>
+        </h5>
         <p>Memphis, TN 06/2018-12/2020</p>
         <p>
           Owned and operated a roofing and restoration company responsible for

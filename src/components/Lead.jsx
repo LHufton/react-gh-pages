@@ -4,7 +4,7 @@ const Lead = () => {
   return (
     <div id="lead">
       <div id="lead-content">
-        <img id="profile" src="./images/Profile.jpeg" alt="Profile" />
+        <img id="profile" src="/images/Profile.jpeg" alt="Profile" />
         <h1>
           Luke <br />
           Hufton
