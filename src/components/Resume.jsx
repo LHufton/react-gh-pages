@@ -55,7 +55,7 @@ const Resume = () => {
           replacement estimates using Xactimate.
         </p>
       </div>
-      <div classname="education">
+      <div className="education">
         <h4>Education</h4>
         <p>General Assembly Fellow</p>
         <p>April 2023 - July 2023</p>
@@ -67,12 +67,6 @@ const Resume = () => {
           development environment, how to use Git and GitHub, and how to deploy
           my applications to the web using Heroku.
         </p>
-      </div>
-      <div className="skills">
-        <h4>Skills</h4>
-        <ul>
-          <li>JavaScript</li>
-        </ul>
       </div>
     </div>
   )
