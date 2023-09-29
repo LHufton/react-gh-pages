@@ -215,6 +215,10 @@ button[type="submit"]:hover {
   }
 }
 
+.profile-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
 #Profile {
   padding: 20px;
