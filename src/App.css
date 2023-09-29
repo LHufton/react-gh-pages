@@ -214,3 +214,10 @@ button[type="submit"]:hover {
     flex-direction: row;
   }
 }
+
+
+#Profile {
+  padding: 20px;
+  width: 250px;
+  float: right;
+}

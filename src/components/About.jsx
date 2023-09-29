@@ -13,7 +13,7 @@ const About = () => {
       <a
         href="/images/Resumé.pdf"
         download="resume.pdf"
-        className="btn-rounded-white"
+        className="download-resume"
       >
         Download Resumé
       </a>
