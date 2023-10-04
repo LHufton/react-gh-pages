@@ -32,8 +32,9 @@ const Project = () => {
               <h3>Simon</h3>
               <img src="images/Simon.png" alt="Simon" />
               <p>
-                The classic memory game developed using javascript, html and
-                css.
+                This was the first application I built at General Assembly. The
+                flashing lights memory game Simon. I developed using javascript,
+                html and css.
               </p>
               <p>
                 <a href="https://lhufton.github.io/Simon/">View Project</a>
@@ -46,8 +47,8 @@ const Project = () => {
               <h3>"Tic-Tac-Toe"</h3>
               <img src="images/TTT.png" alt="Tic-Tac-Toe" />
               <p>
-                I used javascript, html and css to develop this classic
-                two-player game.
+                This was my first project at General Assembly. I developed using
+                javascript, html and css.
               </p>
               <p>
                 <a href="https://unit1ttt-app.surge.sh/">View Project</a>

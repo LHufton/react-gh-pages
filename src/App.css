@@ -81,7 +81,7 @@ main {
 
 #Navbar li a {
   display: block;
-  padding: 1rem;
+  padding: .25rem;
   text-decoration: none;
   color: rgb(113, 133, 163);
   font-weight: 700;
@@ -89,14 +89,15 @@ main {
 }
 
 #Profile{
+  border: #007bff;
   border-radius: 12%;
-  border:#090909fc solid 1px rgb(213, 93, 93);
-  width: 185px;
-  height: 185px;
+  width: 450px;
+  height: 450px;
   margin: 0 auto;
   padding: 10px;
   display: block;
   box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(217, 235, 235, 0.976);
 }
 .profile-container {
   display: flex;
