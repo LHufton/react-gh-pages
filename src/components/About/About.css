@@ -1,0 +1,40 @@
+#About {
+  padding: 2rem 0;  /* Increase padding for better spacing */
+  text-align: center;  /* Center align text for a symmetrical look */
+}
+.about-me-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.col-md-8 {
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* 
+#Profile{
+  display: flex;
+  border: #007bff;
+  border-radius: 10%;
+  width: 5px;
+  height: 5px;
+  margin: 0 auto;
+  padding: 1px;
+  display: block;
+  box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+/* .profile-container {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* #Profile {
+  padding: 20px;
+  width: 250px;
+  float: right;
+} */

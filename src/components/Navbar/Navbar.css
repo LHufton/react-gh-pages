@@ -1,0 +1,18 @@
+#Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* Align items vertically centered */
+  padding: 1rem 2rem;  /* Padding on top-bottom, left-right */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  background-color: #ffffff;  /* Providing a solid background for better contrast */
+}
+
+#Navbar li a {
+  display: flex;
+  font-size:x-large;
+  text-decoration: none;
+  color: rgb(113, 133, 163);
+  font-weight:bold;
+  box-shadow: 0px 4px 6px rgba(234, 238, 239, 0.931);
+}

@@ -1,0 +1,21 @@
+#Projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  /* Responsive columns */
+  gap: 20px;
+  padding: 2rem 0;
+}
+
+
+.project {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+}
+
+#shareYourThoughts {
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+}
