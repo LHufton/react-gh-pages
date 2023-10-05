@@ -1,25 +1,8 @@
 
 
-/* 
-header {
-  color: white;
-  text-align: center;
-} */
 
-footer {
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-#About {
-  padding: 20px;
-}
+
 #Navbar {
   display: flex;
   justify-content: space-between;
@@ -34,6 +17,12 @@ main {
   font-size: large;
   font-style: none;
 }
+#About {
+  border: .25px solid black;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 
 .about-me-container {
   display: flex;
@@ -74,8 +63,7 @@ main {
 
 
 #Navbar li a {
-  display: block;
-  padding: .25rem;
+  display: flex;
   text-decoration: none;
   color: rgb(113, 133, 163);
   font-weight: 700;
@@ -83,21 +71,22 @@ main {
 }
 
 #Profile{
+  display: flex;
   border: #007bff;
-  border-radius: 12%;
+  border-radius: 10%;
   width: 450px;
   height: 450px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 100px;
   display: block;
   box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.profile-container {
+/* .profile-container {
   display: flex;
   justify-content: flex-end;
   padding: 20px;
-  border-radius: 200%;
-}
+  border-radius: 20%;
+} */
 #skills li {
   display: flex;
   flex-direction: flex-start;
@@ -186,8 +175,14 @@ button[type="submit"]:hover {
   justify-content: flex-end;
 }
 
-#Profile {
+/* #Profile {
   padding: 20px;
   width: 250px;
   float: right;
+} */
+
+footer {
+  color: black;
+  padding: 1rem;
+  text-align: center;
 }

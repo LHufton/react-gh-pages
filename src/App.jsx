@@ -117,11 +117,10 @@ const App = () => {
   return (
     <React.StrictMode>
       <Nav />
-      {/* <Lead /> */}
       <About />
-      <Resume />
       <Skills />
       <Project />
+      <Resume />
       <Contact />
       <Footer />
     </React.StrictMode>
