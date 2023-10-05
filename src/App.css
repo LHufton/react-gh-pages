@@ -5,17 +5,27 @@
 
 #Navbar {
   display: flex;
+  flex-direction: space-between;
   justify-content: space-between;
   align-items: center;
   margin-top: flex;
-  margin-bottom: 15;
-  padding: 0;
+  margin-bottom: flex;
+  margin: 0 auto;
+  padding:0rem;
   list-style: none;
-  background-color: rgba(217, 235, 235, 0.976);
+  /* background-color: rgba(217, 235, 235, 0.976); */
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(217, 235, 235, 0.976);
-  font-size: large;
+  font-size: 300px;
   font-style: none;
+}
+#Navbar li a {
+  display: flex;
+  font-size:x-large;
+  text-decoration: none;
+  color: rgb(113, 133, 163);
+  font-weight:bold;
+  box-shadow: 0px 4px 6px rgba(234, 238, 239, 0.931);
 }
 #About {
   border: .25px solid black;
@@ -62,13 +72,6 @@
 }
 
 
-#Navbar li a {
-  display: flex;
-  text-decoration: none;
-  color: rgb(113, 133, 163);
-  font-weight: 700;
-  box-shadow: 0px 4px 6px rgba(234, 238, 239, 0.931);
-}
 
 #Profile{
   display: flex;

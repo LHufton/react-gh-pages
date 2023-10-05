@@ -12,9 +12,9 @@ const Project = () => {
               <h3>Share your thoughts</h3>
               {/* <img src="images/DeepThought.jpeg" alt="Deep Thought" /> */}
               <p>
-                I developed this MERN stack application to allow users to share
-                their thoughts with the world and to encourage freewriting and
-                journaling.
+                I developed this react application with a mongodb backend to
+                allow users to share their thoughts with the world and to
+                encourage free-writing and journaling.
               </p>
             </div>
           </div>

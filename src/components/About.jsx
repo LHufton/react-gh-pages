@@ -6,7 +6,10 @@ const About = () => {
     <div id="About">
       <h2 className="heading">Luke Hufton</h2>
       <h3>Fullstack Software Developer</h3>
-      <h4>Finding simple solutions to complex problems.</h4>
+      <h4>
+        Finding simple solutions <br />
+        to complex problems.
+      </h4>
       <div className="profile-container">
         <img id="Profile" src={Profile} alt="Profile" />
       </div>
