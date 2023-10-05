@@ -1,18 +1,32 @@
 #Navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;  /* Align items vertically centered */
-  padding: 1rem 2rem;  /* Padding on top-bottom, left-right */
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+  width: 100%; 
+  padding: 1rem 2rem;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
-  background-color: #ffffff;  /* Providing a solid background for better contrast */
+  background-color: #ffffff;
+  list-style-type: none;
+  margin: 0;
+}
+
+#Navbar li {
+  flex: 1;  /* Distributes the space between list items */
+  text-align: center;  /* Ensures the text within the list item is centered */
+  padding: 0 1rem;
 }
 
 #Navbar li a {
-  display: flex;
-  font-size:x-large;
+  font-size: x-large;
   text-decoration: none;
   color: rgb(113, 133, 163);
-  font-weight:bold;
-  box-shadow: 0px 4px 6px rgba(234, 238, 239, 0.931);
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+#Navbar li a:hover {
+  color: rgb(80, 100, 130);
 }
