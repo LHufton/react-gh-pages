@@ -1,13 +1,13 @@
 import './App.css'
 import React, { useEffect } from 'react'
-import Nav from './components/Navbar'
+import Nav from './components/Navbar/Navbar'
 // import Lead from './components/Lead'
-import About from './components/About'
-import Project from './components/Project'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Resume from './components/Resume'
+import About from './components/About/About'
+import Project from './components/Project/Project'
+import Skills from './components/Skills/Skills'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import Resume from './components/Resume/Resume'
 
 const App = () => {
   useEffect(() => {
@@ -118,8 +118,8 @@ const App = () => {
     <React.StrictMode>
       <Nav />
       <About />
-      <Skills />
       <Project />
+      <Skills />
       <Resume />
       <Contact />
       <Footer />
