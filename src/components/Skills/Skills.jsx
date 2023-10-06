@@ -1,17 +1,18 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faJs,
+  faJsSquare,
   faPython,
   faReact,
   faAngular,
   faVuejs,
   faJava,
   faBootstrap,
-  faNode,
+  faNodeJs,
   faDocker,
   faGit,
-  faAws
+  faAws,
+  faMicrosoft
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faCode,
@@ -30,7 +31,7 @@ const Skills = () => {
           <h3>Languages/Frameworks</h3>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faJs} /> JavaScript
+              <FontAwesomeIcon icon={faJsSquare} /> JavaScript
             </li>
             <li>
               <FontAwesomeIcon icon={faPython} /> Python
@@ -48,7 +49,7 @@ const Skills = () => {
               <FontAwesomeIcon icon={faVuejs} /> Vue.js
             </li>
             <li>
-              <FontAwesomeIcon icon={faNode} /> Node.js
+              <FontAwesomeIcon icon={faNodeJs} /> Node.js
             </li>
             <li>
               <FontAwesomeIcon icon={faTerminal} /> Shell Scripting
@@ -62,9 +63,6 @@ const Skills = () => {
           <h3>Technologies</h3>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faCode} /> jQuery
-            </li>
-            <li>
               <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
             </li>
             <li>
@@ -77,10 +75,10 @@ const Skills = () => {
               <FontAwesomeIcon icon={faServer} /> Django
             </li>
             <li>
-              <FontAwesomeIcon icon={faServer} /> .NET Core
+              <FontAwesomeIcon icon={faMicrosoft} /> .NET Core
             </li>
             <li>
-              <FontAwesomeIcon icon={faServer} /> Express.js
+              <FontAwesomeIcon icon={faNodeJs} /> Express.js
             </li>
             <li>
               <FontAwesomeIcon icon={faServer} /> FastAPI
