@@ -1,11 +1,20 @@
 #About {
-  padding: 2rem 0;  /* Increase padding for better spacing */
-  text-align: center;  /* Center align text for a symmetrical look */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#About h2, h3, h4 {
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .about-me-container {
   display: flex;
+  justify-content: space-between; 
   align-items: flex-start;
+  padding: 2rem;
 }
 
 .col-md-4 {
@@ -18,16 +27,16 @@
 }
 
 #Profile {
-  border: 1px solid #007bff;  /* Adjusted border style */
-  border-radius: 10%;
-  width: 450px;
-  height: 450px;
-  margin: 0 auto;
-  box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
-  display: block;
+  border: 1px solid #007bff;
+  padding: 2px;
+  position: inline-block;
+  border-radius: 4%;
+  width: 36.5%;
+  margin: -25.5% 50% -100px 66%; 
+  box-shadow: 10px 4px 6px rgba(255, 255, 255, 0.753) (0, 0, 0, 0.1);
 }
 
 .profile-container {
-  display: flex;
-  justify-content: flex-end;
+display: relative;
+border: 1rem;
 }

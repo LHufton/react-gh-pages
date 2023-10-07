@@ -3,7 +3,7 @@ import React from 'react'
 const Project = () => {
   return (
     <div id="Projects" className="background-alt">
-      <h2>General Assembly Projects</h2>
+      <h2>My Work</h2>
       <div className="GA-projects-container">
         <div className="row">
           <div className="project shadow-large">
@@ -12,9 +12,11 @@ const Project = () => {
               <h3>Share your thoughts</h3>
               {/* <img src="images/DeepThought.jpeg" alt="Deep Thought" /> */}
               <p>
-                I developed this react application with a mongodb backend to
-                allow users to share their thoughts with the world and to
-                encourage free-writing and journaling.
+                A MERN application that encourages users to share <br />
+                their thoughts and feelings with others.I want to promote <br />
+                the health benefits of journaling and free-writing.
+                <br />
+                <br />
               </p>
             </div>
           </div>
