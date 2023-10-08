@@ -16,13 +16,14 @@ const Navbar = () => {
             <a href="#Skills">Skills</a>
           </li>
           <li>
-            <a href="#Resume">Resume</a>
+            <a href="/Resume">Resume</a>
           </li>
           <li>
             <a href="#Contact">Contact</a>
           </li>
         </ul>
-      </header>
+      </header>{' '}
+      <a href="/pages/Resume.jsx">Resume</a>
     </div>
   )
 }

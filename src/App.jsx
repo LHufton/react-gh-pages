@@ -108,7 +108,7 @@ const App = () => {
 
     const resumeLink = document.querySelector('a[href="#Resume"]')
     if (resumeLink) {
-      resumeLink.addEventListener('click', scrollToResume)
+      resumeLink.removeEventListener('click', scrollToResume)
     }
 
     // ... (rest of the existing code)

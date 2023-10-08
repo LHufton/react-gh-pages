@@ -23,11 +23,13 @@ const Project = () => {
 
           <div className="project shadow-large">
             <a
-              href="https://lhufton.github.io/Simon/"
+              href="https://github.com/LHufton/ShareYourThoughts"
               className="project-image"
             >
               <p>
-                <a href="https://lhufton.github.io/Simon/">View Project</a>
+                <a href="https://github.com/LHufton/ShareYourThoughts">
+                  GitHub
+                </a>
               </p>
             </a>
             <div className="project-info">
@@ -39,6 +41,7 @@ const Project = () => {
                 html and css.
               </p>
               <p>
+                <a href="https://github.com/LHufton/Simon">GitHub</a>
                 <a href="https://lhufton.github.io/Simon/">View Project</a>
               </p>
             </div>
