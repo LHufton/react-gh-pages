@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-#About h2, h3, h4 {
+#About h2, h3, h4, h5, h6 {
   font-weight: 500;
   display: flex;
   justify-content: flex-start;
@@ -27,13 +27,16 @@
 }
 
 #Profile {
-  border: 1px solid #007bff;
+  border: .25px solid black;
   padding: 2px;
-  position: inline-block;
+  display: relative;
+  position: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
   border-radius: 4%;
   width: 36.5%;
-  margin: -25.5% 50% -100px 66%; 
-  box-shadow: 10px 4px 6px rgba(255, 255, 255, 0.753) (0, 0, 0, 0.1);
+  margin: -25.5% 50% -10% 66%; 
+  box-shadow: 10px 4px 6px black (0, 0, 0, 0.1);
 }
 
 .profile-container {
