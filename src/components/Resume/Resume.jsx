@@ -29,6 +29,13 @@ const Resume = () => {
         of technologies. Passionate about creating applications that enable
         people to live healthier lives with a focus on mental health.
       </p>
+      <a
+        href="/images/Resumé.pdf"
+        download="resume.pdf"
+        className="download-resume"
+      >
+        Download Resumé
+      </a>
 
       <div className="experience">
         <h4>Work Experience</h4>

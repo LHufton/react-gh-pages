@@ -40,3 +40,18 @@
 display: relative;
 border: 1rem;
 }
+
+#about h2, h3, h4, h5, a {
+position: relative;
+display: flex;
+justify-content: flex-start;
+align-self: flex-start;
+align-content: flex-start;
+}
+
+.download-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
