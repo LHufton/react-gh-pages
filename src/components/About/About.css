@@ -1,60 +1,36 @@
-#About {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-#About h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 .about-me-container {
   display: flex;
-  justify-content: space-between; 
-  align-items: flex-start;
-  padding: 2rem;
-}
-
-.col-md-4 {
-  text-align: center;
-}
-
-.col-md-8 {
-  font-size: 18px;
-  line-height: 1.6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem; /* Reduce the right padding to bring content closer together */
 }
 
 #Profile {
   border: .25px solid black;
   padding: 2px;
-  display: relative;
-  position: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
   border-radius: 4%;
-  width: 36.5%;
-  margin: -25.5% 50% -10% 66%; 
-  box-shadow: 10px 4px 6px black (0, 0, 0, 0.1);
+  width: 35%; /* Increased size for default view. Adjust this and media queries as needed */
+  position: absolute;
+  right: 2%; /* This is closer to the scrollbar */
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.profile-container {
-display: relative;
-border: 1rem;
+@media screen and (min-width: 768px) {
+  #Profile {
+    width: 35%;
+  }
 }
 
-#about h2, h3, h4, h5, a {
-position: relative;
-display: flex;
-justify-content: flex-start;
-align-self: flex-start;
-align-content: flex-start;
+@media screen and (min-width: 992px) {
+  #Profile {
+    width: 35%;
+  }
 }
 
-.download-resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
+@media screen and (min-width: 1200px) {
+  #Profile {
+    width: 35%;
+  }
 }

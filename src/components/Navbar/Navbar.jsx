@@ -23,7 +23,6 @@ const Navbar = () => {
           </li>
         </ul>
       </header>{' '}
-      <a href="/pages/Resume.jsx">Resume</a>
     </div>
   )
 }
