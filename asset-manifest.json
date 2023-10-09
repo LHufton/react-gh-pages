@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.6b312077.css",
-    "main.js": "/react-gh-pages/static/js/main.f63d59ee.js",
+    "main.css": "/react-gh-pages/static/css/main.cd163fe0.css",
+    "main.js": "/react-gh-pages/static/js/main.76975fda.js",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
+    "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
+    "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "index.html": "/react-gh-pages/index.html",
-    "main.6b312077.css.map": "/react-gh-pages/static/css/main.6b312077.css.map",
-    "main.f63d59ee.js.map": "/react-gh-pages/static/js/main.f63d59ee.js.map"
+    "main.cd163fe0.css.map": "/react-gh-pages/static/css/main.cd163fe0.css.map",
+    "main.76975fda.js.map": "/react-gh-pages/static/js/main.76975fda.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b312077.css",
-    "static/js/main.f63d59ee.js"
+    "static/css/main.cd163fe0.css",
+    "static/js/main.76975fda.js"
   ]
 }
