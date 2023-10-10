@@ -6,32 +6,11 @@
 }
 
 
-.project {
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex: 1;
-}
-
 #shareYourThoughts {
   position: relative;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 15px;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
 }
 
 
@@ -43,17 +22,12 @@
   margin: 0 auto;
 }
 
-.project {
+.simon-project {
   display: flex;
+  width: 40%;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-}
-
-.project img {
-  width: 80%;
-  height: auto;
-  margin-bottom: 15px;
 }

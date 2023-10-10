@@ -5,14 +5,14 @@ import TicTacToe from '../../images/Tic Tac Toe.png'
 const Project = () => {
   return (
     <div id="Projects" className="background-alt">
-      <h2>My Work</h2>
+      <h2>Completed Projects</h2>
       <div className="GA-projects-container grid">
-        <div className="project">
+        <div className="simon-project">
           <img src={Simon} alt="Simon" />
           <h3>Simon</h3>
           <p>Description for Simon...</p>
         </div>
-        <div className="project">
+        <div className="TTT-project">
           <img src={TicTacToe} alt="Tic Tac Toe" />
           <h3>Tic Tac Toe</h3>
           <p>Description for Tic Tac Toe...</p>

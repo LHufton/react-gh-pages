@@ -118,8 +118,8 @@ const App = () => {
     <React.StrictMode>
       <Nav />
       <About />
-      <Project />
       <Skills />
+      <Project />
       <Resume />
       <Contact />
       <Footer />
