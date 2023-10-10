@@ -1,36 +1,61 @@
+#About {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#About h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .about-me-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 2rem 1rem; /* Reduce the right padding to bring content closer together */
+  align-items: center; 
+  padding: 2rem;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.col-md-8 {
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 #Profile {
   border: .25px solid black;
-  padding: 2px;
   border-radius: 4%;
-  width: 35%; /* Increased size for default view. Adjust this and media queries as needed */
-  position: absolute;
-  right: 2%; /* This is closer to the scrollbar */
-  top: 50%;
-  transform: translateY(-50%);
+  width: 80%;
+  height: auto; 
+  max-width: 500px;
+  max-height: 600px;
   box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -350px;
 }
 
-@media screen and (min-width: 768px) {
-  #Profile {
-    width: 35%;
-  }
+.profile-container {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
 }
 
-@media screen and (min-width: 992px) {
-  #Profile {
-    width: 35%;
-  }
+#About h2, h3, h4, h5, a {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-content: flex-start;
 }
 
-@media screen and (min-width: 1200px) {
-  #Profile {
-    width: 35%;
-  }
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: rem;
 }

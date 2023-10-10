@@ -8,13 +8,7 @@ const About = () => {
   return (
     <div id="About">
       <h2 className="heading">Luke Hufton</h2>
-
-      <h5>Based in: Memphis, TN</h5>
       <h4>Fullstack Software Developer</h4>
-      <h5>
-        Finding simple solutions <br />
-        to complex problems.
-      </h5>
       <div className="social-links">
         <a
           href="https://www.linkedin.com/in/luke-hufton/"
@@ -31,8 +25,15 @@ const About = () => {
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>
+      <div className="about-text">
+        <h5>Based in: Memphis, TN</h5>
+        <h5>
+          Finding simple solutions <br />
+          to complex problems.
+        </h5>
+      </div>
       <div className="about-me-container">
-        <div className="about-text"></div>
+        <div></div>
         <div className="profile-container">
           <img id="Profile" src={ProfilePic} alt="Luke Hufton" />
         </div>
