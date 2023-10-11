@@ -1,4 +1,5 @@
 import React from 'react'
+import './Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faJsSquare,
@@ -24,90 +25,74 @@ import {
 
 const Skills = () => {
   return (
-    <div id="Skills">
-      <h2 className="heading">Skills</h2>
-      <div className="skills-container">
-        <div className="column">
-          <h3>Languages/Frameworks</h3>
-          <ul>
-            <li>
-              <FontAwesomeIcon icon={faJsSquare} /> JavaScript
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faPython} /> Python
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faJava} /> Java
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faReact} /> React.js
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faAngular} /> Angular
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faVuejs} /> Vue.js
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faNodeJs} /> Node.js
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faTerminal} /> Shell Scripting
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDatabase} /> SQL
-            </li>
-          </ul>
-        </div>
-        <div className="column">
-          <h3>Technologies</h3>
-          <ul>
-            <li>
-              <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCode} /> Material-UI
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faWind} /> Tailwind CSS
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faServer} /> Django
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faMicrosoft} /> .NET Core
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faNodeJs} /> Express.js
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faServer} /> FastAPI
-            </li>
-          </ul>
-        </div>
-        <div className="column">
-          <h3>DevOps/Tools</h3>
-          <ul>
-            <li>
-              <FontAwesomeIcon icon={faDatabase} /> MySQL
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDatabase} /> PostgreSQL
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDatabase} /> MongoDB
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDocker} /> Docker
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faGit} /> Git
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faAws} /> AWS
-            </li>
-          </ul>
-        </div>
+    <div id="skills-grid">
+      <div>
+        <FontAwesomeIcon icon={faJsSquare} /> JavaScript
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faPython} /> Python
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faJava} /> Java
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faReact} /> React.js
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faAngular} /> Angular
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faVuejs} /> Vue.js
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faNodeJs} /> Node.js
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faTerminal} /> Shell Scripting
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faDatabase} /> SQL
+      </div>
+
+      <div>
+        <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faCode} /> Material-UI
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faWind} /> Tailwind CSS
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faServer} /> Django
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faMicrosoft} /> .NET Core
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faNodeJs} /> Express.js
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faServer} /> FastAPI
+      </div>
+
+      <div>
+        <FontAwesomeIcon icon={faDatabase} /> MySQL
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faDatabase} /> PostgreSQL
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faDatabase} /> MongoDB
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faDocker} /> Docker
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faGit} /> Git
+      </div>
+      <div>
+        <FontAwesomeIcon icon={faAws} /> AWS
       </div>
     </div>
   )
