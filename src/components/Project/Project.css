@@ -1,41 +1,24 @@
-/* #Projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  gap: 20px;
-  padding: 2rem 0;
-} */
-
-
-#shareYourThoughts {
-  position: relative;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-.GA-projects-container.grid {
+#GA-projects-container.grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 1rem;
+  gap: 1rem;
 }
 
-
-.simon-project {
-  display: flex;
-  width: 40%;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+#GA-projects-container.grid > div {
+  width: 100%;
+  height: 250px;
   border: 1px solid #ddd;
   border-radius: 5px;
-}
-
-.simon, .TTT {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  overflow: hidden;
+}
+
+#GA-projects-container.grid > div > img {
+  max-width: 100%;
+  max-height: 60%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }

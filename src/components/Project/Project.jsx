@@ -1,30 +1,62 @@
 import React from 'react'
 import './Project.css'
+import { faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons'
+
 import Simon from '../../images/Simon.png'
 import TicTacToe from '../../images/Tic Tac Toe.png'
+import UnpopularOpinions from '../../images/UnpopularOpinions.png'
+
+const projectsData = [
+  {
+    img: Simon,
+    title: 'Simon',
+    technologies: [
+      { icon: faHtml5, label: 'HTML' },
+      { icon: faCss3Alt, label: 'CSS' },
+      { icon: faJs, label: 'JavaScript' }
+    ]
+  },
+  {
+    img: UnpopularOpinions,
+    title: 'Unpopular Opinions',
+    technologies: [
+      { icon: faHtml5, label: 'HTML' },
+      { icon: faCss3Alt, label: 'CSS' },
+      { icon: faJs, label: 'JavaScript' }
+    ]
+  },
+  {
+    img: TicTacToe,
+    title: 'Tic Tac Toe',
+    technologies: [
+      { icon: faHtml5, label: 'HTML' },
+      { icon: faCss3Alt, label: 'CSS' },
+      { icon: faJs, label: 'JavaScript' }
+    ]
+  }
+]
 
 const Project = () => {
   return (
-    <div id="Projects" className="background-alt">
+    <div>
       <h2>My Work</h2>
-      <div className="GA-projects-container grid">
-        <div className="simon-project">
-          <img className="simon" src={Simon} alt="Simon " />
-          <h3>Simon</h3>
-          <p>
-            I created a digital version of the classic memory game using HTML,
-            CSS and Javascript after two weeks of instruction at General
-            Assembly.
-          </p>
-        </div>
-        <div className="TTT-project">
-          <img className="TTT" src={TicTacToe} alt="Tic Tac Toe" />
-          <h3>Tic Tac Toe</h3>
-          <p>
-            The classic game of tic-tac-toe crated using HTML, CSS and
-            Javascript after one week's instruction at General Assembly.
-          </p>
-        </div>
+      <div id="GA-projects-container grid">
+        {projectsData.map((project, index) => (
+          <div
+            key={index}
+            className={`${project.title
+              .toLowerCase()
+              .replace(/\s+/g, '-')}-project`}
+          >
+            <img
+              className={project.title.toLowerCase().replace(/\s+/g, '')}
+              src={project.img}
+              alt={project.title}
+            />
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   )
