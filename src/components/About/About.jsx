@@ -18,7 +18,7 @@ const About = () => {
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a
-          href="https://https://github.com/LHufton"
+          href="https://www.github.com/LHufton"
           target="_blank"
           rel="noopener noreferrer"
         >
