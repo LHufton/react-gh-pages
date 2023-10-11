@@ -1,6 +1,5 @@
 import React from 'react'
-import './Navbar.css' // Make sure you've imported the CSS file in your JSX.
-
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div>

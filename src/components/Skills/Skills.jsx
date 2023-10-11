@@ -43,12 +43,15 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div id="skills-grid">
-      {skillsData.map((skill) => (
-        <div key={skill.label}>
-          <FontAwesomeIcon icon={skill.icon} /> {skill.label}
-        </div>
-      ))}
+    <div>
+      <h3>My skills</h3>
+      <div id="skills-grid">
+        {skillsData.map((skill) => (
+          <div key={skill.label}>
+            <FontAwesomeIcon icon={skill.icon} /> {skill.label}
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

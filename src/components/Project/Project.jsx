@@ -1,4 +1,5 @@
 import React from 'react'
+import './Project.css'
 import Simon from '../../images/Simon.png'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 
