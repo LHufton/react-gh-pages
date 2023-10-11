@@ -27,7 +27,7 @@ const Contact = () => {
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-      <button id="submit-button" type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>

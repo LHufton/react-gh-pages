@@ -8,12 +8,12 @@ const Project = () => {
       <h2>Completed ps</h2>
       <div className="GA-projects-container grid">
         <div className="simon-project">
-          <img src={Simon} alt="Simon" />
+          <img className="simon" src={Simon} alt="Simon " />
           <h3>Simon</h3>
           <p>Description for Simon...</p>
         </div>
         <div className="TTT-project">
-          <img src={TicTacToe} alt="Tic Tac Toe" />
+          <img className="TTT" src={TicTacToe} alt="Tic Tac Toe" />
           <h3>Tic Tac Toe</h3>
           <p>Description for Tic Tac Toe...</p>
         </div>
