@@ -40,7 +40,7 @@ const Project = () => {
   return (
     <div>
       <h2>My Work</h2>
-      <div id="GA-projects-container grid">
+      <div id="projects-grid">
         {projectsData.map((project, index) => (
           <div
             key={index}
