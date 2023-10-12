@@ -13,8 +13,12 @@
 
 .tech-icons {
   margin-top: 1rem;
+  display: flex;
+  gap: 10px;  /* Creates space between the icons */
 }
 
-.faHtml5, .faCss3Alt, .faJs, .faPython {
-  margin-right: 10px;
+/* Style each FontAwesome icon */
+.tech-icons .svg-inline--fa {
+  font-size: 20px;
+  color: #333;
 }

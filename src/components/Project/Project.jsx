@@ -67,7 +67,11 @@ const Project = () => {
             <h3>{project.title}</h3>
             <div className="tech-icons">
               {project.technologies.map((tech, idx) => (
-                <FontAwesomeIcon key={idx} icon={tech.icon} />
+                <FontAwesomeIcon
+                  key={idx}
+                  icon={tech.icon}
+                  title={tech.label}
+                />
               ))}
             </div>
           </div>
