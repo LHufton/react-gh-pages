@@ -7,9 +7,6 @@ const Navbar = () => {
       <header>
         <ul id="Navbar" className="shadow">
           <li>
-            <a href="#About">About</a>
-          </li>
-          <li>
             <a href="#projects-grid">Projects</a>
           </li>
           <li>
