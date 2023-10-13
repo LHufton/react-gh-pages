@@ -10,21 +10,17 @@ const Contact = () => {
   // Formspree contact form
   return (
     <form id="Contact" onSubmit={handleSubmit}>
-      <label htmlFor="email">Email Address</label>
+      <label htmlFor="email"></label>
       <input
         id="email"
         type="email"
         name="email"
-        placeholder="Enter your email address"
+        placeholder="Your email address"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-      <label htmlFor="message">Message</label>
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Enter your message here"
-      />
+      <label htmlFor="message"></label>
+      <textarea id="message" name="message" placeholder="Enter your message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
       <button type="submit" disabled={state.submitting}>
@@ -37,7 +33,7 @@ const Contact = () => {
 const App = () => {
   return (
     <div>
-      <h1 className="contact-heading">Send me an email</h1>
+      <h1 className="contact-heading">Schedule an appointment</h1>
       <Contact />
     </div>
   )

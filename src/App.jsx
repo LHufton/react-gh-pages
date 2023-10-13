@@ -1,6 +1,5 @@
-import './App.css'
 import React, { useEffect } from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Nav from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Project from './components/Project/Project'
 import Skills from './components/Skills/Skills'
@@ -10,30 +9,25 @@ import Resume from './components/Resume/Resume'
 
 const App = () => {
   useEffect(() => {
-    const currentYear = new Date().getFullYear()
-    document.getElementById('current-year').textContent = currentYear
-    document.documentElement.classList.remove('no-js')
+    // Your existing scroll logic
 
-    const scrollToSection = (e) => {
-      e.preventDefault()
-      const heading = e.target.getAttribute('href').substring(1)
-      const scrollDistance = document.getElementById(heading).offsetTop
-
+    // Scroll to top button logic
+    const scrollToTop = () => {
       window.scrollTo({
-        top: scrollDistance,
+        top: 0,
         behavior: 'smooth'
       })
     }
 
-    const headerLinks = document.querySelectorAll('header a')
-    headerLinks.forEach((link) => {
-      link.addEventListener('click', scrollToSection)
-    })
+    const toTopButton = document.getElementById('to-top')
+    if (toTopButton) {
+      toTopButton.addEventListener('click', scrollToTop)
+    }
   }, [])
 
   return (
     <React.StrictMode>
-      <Navbar />
+      <Nav />
       <About />
       <Skills />
       <Project />

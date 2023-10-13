@@ -2,6 +2,14 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <footer>
       <div className="container">
@@ -12,7 +20,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-sm-2 top">
-            <span id="to-top">
+            {/* Added onClick event here */}
+            <span id="to-top" onClick={scrollToTop}>
               <i className="fa fa-chevron-up" aria-hidden="true"></i>
             </span>
           </div>
