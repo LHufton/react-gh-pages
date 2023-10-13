@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+
 const Navbar = () => {
   return (
     <div>
@@ -9,19 +10,19 @@ const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <a href="#projects-grid">Projects</a>
           </li>
           <li>
-            <a href="#Skills">Skills</a>
+            <a href="#skills-grid">Skills</a>
           </li>
           <li>
-            <a href="/Resume">Resume</a>
+            <a href="#Resume">Resume</a>
           </li>
           <li>
             <a href="#Contact">Contact</a>
           </li>
         </ul>
-      </header>{' '}
+      </header>
     </div>
   )
 }
