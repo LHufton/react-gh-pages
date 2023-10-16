@@ -9,9 +9,6 @@ import Resume from './components/Resume/Resume'
 
 const App = () => {
   useEffect(() => {
-    // Your existing scroll logic
-
-    // Scroll to top button logic
     const scrollToTop = () => {
       window.scrollTo({
         top: 0,

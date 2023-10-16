@@ -33,7 +33,7 @@ const Contact = () => {
 const App = () => {
   return (
     <div>
-      <h1 className="contact-heading">Schedule an appointment</h1>
+      <h1 className="contact-heading">Contact me</h1>
       <Contact />
     </div>
   )

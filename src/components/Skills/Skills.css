@@ -1,13 +1,25 @@
-#skills-grid{
+/* Skills.css */
+.category {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.category h4 {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
 }
 
-
-.icon{
+.skill-item {
   background: lightgrey;
-  flex-basis: 200px;
-  flex-grow: 1;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
 }
-

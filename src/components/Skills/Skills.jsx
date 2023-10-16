@@ -1,57 +1,52 @@
+// Skills.jsx
 import React from 'react'
 import './Skills.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faJs,
-  faPython,
-  faJava,
-  faReact,
-  faVuejs,
-  faNode,
-  faBootstrap,
-  faYarn,
-  faNpm,
-  faMicrosoft,
-  faGitAlt,
-  faDocker,
-  faAws
-} from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
-const skillsData = [
-  { icon: faJs, label: 'JavaScript' },
-  { icon: faPython, label: 'Python' },
-  { icon: faJava, label: 'Java' },
-  { icon: faReact, label: 'React.js' },
-  { icon: faVuejs, label: 'Vue.js' },
-  { icon: faNode, label: 'Node.js' },
-  { icon: faDatabase, label: 'SQL' },
-  { icon: faBootstrap, label: 'Bootstrap' },
-  { icon: faYarn, label: 'Material-UI' },
-  { icon: faNpm, label: 'Tailwind CSS' },
-  { icon: faPython, label: 'Django' },
-  { icon: faMicrosoft, label: '.NET Core' },
-  { icon: faNode, label: 'Express.js' },
-  { icon: faPython, label: 'FastAPI' },
-  { icon: faDatabase, label: 'MySQL' },
-  { icon: faDatabase, label: 'PostgreSQL' },
-  { icon: faDatabase, label: 'MongoDB' },
-  { icon: faDocker, label: 'Docker' },
-  { icon: faGitAlt, label: 'Git' },
-  { icon: faAws, label: 'AWS' }
-]
+const categories = {
+  'Languages/Frameworks': [
+    'JavaScript',
+    'Python',
+    'Java',
+    'React.js',
+    'Vue.js',
+    'Node.js'
+  ],
+  'DevOps & Backend': [
+    'SQL',
+    'Django',
+    '.NET Core',
+    'Express.js',
+    'FastAPI',
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB',
+    'Docker',
+    'AWS'
+  ],
+  'Development Tools & Technologies': [
+    'Bootstrap',
+    'Material-UI',
+    'Tailwind CSS',
+    'Git'
+  ]
+}
 
 const Skills = () => {
   return (
     <div>
-      <h3>My skills</h3>
-      <div id="skills-grid">
-        {skillsData.map((skill) => (
-          <div key={skill.label}>
-            <FontAwesomeIcon icon={skill.icon} /> {skill.label}
+      <h3>Skills</h3>
+      {Object.keys(categories).map((category) => (
+        <div key={category} className="category">
+          <h4>{category}</h4>
+          <div className="skills-grid">
+            {categories[category].map((skill) => (
+              <div key={skill} className="skill-item">
+                {skill}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   )
 }
