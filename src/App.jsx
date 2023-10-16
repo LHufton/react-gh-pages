@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Lead from './components/Lead/Lead'
 import Nav from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Project from './components/Project/Project'
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <Nav />
+      <Lead />
       <About />
       <Skills />
       <Project />
