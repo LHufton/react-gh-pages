@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.818cbebe.css",
-    "main.js": "/react-gh-pages/static/js/main.784830ef.js",
+    "main.css": "/react-gh-pages/static/css/main.f80bc5be.css",
+    "main.js": "/react-gh-pages/static/js/main.bb066cba.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "index.html": "/react-gh-pages/index.html",
-    "main.818cbebe.css.map": "/react-gh-pages/static/css/main.818cbebe.css.map",
-    "main.784830ef.js.map": "/react-gh-pages/static/js/main.784830ef.js.map"
+    "main.f80bc5be.css.map": "/react-gh-pages/static/css/main.f80bc5be.css.map",
+    "main.bb066cba.js.map": "/react-gh-pages/static/js/main.bb066cba.js.map"
   },
   "entrypoints": [
-    "static/css/main.818cbebe.css",
-    "static/js/main.784830ef.js"
+    "static/css/main.f80bc5be.css",
+    "static/js/main.bb066cba.js"
   ]
 }
