@@ -50,3 +50,103 @@ button {
   font-weight: 500;
   cursor: pointer;
 }
+
+:root {
+  
+  --root-size: 56.25%; /* equal to 9px = 1em = 1rem */
+  font-size: var(--root-size);
+
+  /* spacing units */
+  --spacing-scale-ratio: 2; /* 2:1 ratio | multiply to scale up (2 * --spacing-scale-ratio) | divide to scale down (n / --spacing-scale-ratio)*/
+  --space-0: 0.5rem; /* equal to --root-size / --spacing-scale-ratio */
+  --space-1: calc(var(--space-0) * var(--spacing-scale-ratio)); /* 9px */
+  --space-2: calc(var(--space-1) * var(--spacing-scale-ratio)); /* 18px */
+  --space-3: calc(var(--space-2) * var(--spacing-scale-ratio)); /* 36px */
+  --space-4: calc(var(--space-3) * var(--spacing-scale-ratio)); /* 72px */
+  --space-5: calc(var(--space-4) * var(--spacing-scale-ratio)); /* 144px */
+  --space-6: calc(var(--space-5) * var(--spacing-scale-ratio)); /* 288px */
+  --space-7: calc(var(--space-6) * var(--spacing-scale-ratio)); /* 576px */
+  --space-8: calc(var(--space-7) * var(--spacing-scale-ratio)); /* 1152px */
+  --space-9: calc(var(--space-8) * var(--spacing-scale-ratio)); /* 2304px */
+
+  /*typography*/
+
+  /* font families */
+  --font-family-default: Messina Sans, Open Sans, sans-serif;
+  --font-primary: var(--font-family-default);
+  --font-trash: Trash, serif; /* todo: get fonts */
+  --font-header: var(--font-trash);
+  --font-syncopate: Syncopate, sans-serif;
+  --font-family-label: var(--font-family-default);
+
+  /* font scaling */
+  --font-scale-ratio: calc(4 / 3); /* 4:3 perfect fourth ratio */
+
+  /* scaling */
+  --font-size-h6: calc(var(--space-1) * var(--font-scale-ratio)); /* 12px | 1.3333rem */
+  --font-size-h5: calc(var(--font-size-h6) * var(--font-scale-ratio)); /* 16px  |  1.7778rem */
+  --font-size-h4: calc(var(--font-size-h5) * var(--font-scale-ratio)); /* 21.3333px 2.3704rem */
+  --font-size-h3: calc(var(--font-size-h4) * var(--font-scale-ratio)); /* 28.4444px | 3.1605rem */
+  --font-size-h2: calc(var(--font-size-h3) * var(--font-scale-ratio)); /* 37.9259px | 4.214rem */
+  --font-size-h1: calc(var(--font-size-h2) * var(--font-scale-ratio)); /* 50.5679px 5.6187rem */
+
+  --font-size-small: var(--font-size-h6);
+  --font-size-p: var(--font-size-h5);
+  --font-size-label: var(--font-size-h6);
+  --font-size-button: var(--font-size-default);
+
+  /* set default font size*/
+  --font-size-default: var(--font-size-p);
+
+  /* lineheight || "letting" */
+  --line-height-default: 2;
+  --line-height-header: calc(0.79 * 5 / 3);
+  --line-height-p: var(--line-height-default);
+  --line-height-small: 2;
+  --line-height-label: var(--font-size-h6);
+
+  font-family: var(--font-family-default);
+  line-height: var(--line-height-default);
+  
+  --dark-pink-90: #29142B;
+  --dark-pink-80: #3D1441;
+  --dark-pink-70: #511357;
+  --dark-pink-60: #65136D;
+  --dark-pink-50: #791283;
+  --dark-pink-40: #8D1198;
+  --dark-pink-30: #A111AE;
+  --dark-pink-20: #B510C4;
+  --dark-pink-10: #C910DA;
+  --pink: #DC0FF0;
+  --light-pink-10: #DE26F1;
+  --light-pink-20: #E13DF1;
+  --light-pink-30: #E354F2;
+  --light-pink-40: #E66BF2;
+  --light-pink-50: #E983F3;
+  --light-pink-60: #EB9AF4;
+  --light-pink-70: #EEB1F4;
+  --light-pink-80: #F1C8F5;
+  --light-pink-90: #F3DFF5;
+  --white: #F6F6F6;
+  --grey-10: #E0E0E0;
+  --grey-20: #C9C9C9;
+  --grey-30: #B3B3B3;
+  --grey-40: #9C9C9C;
+  --grey-50: #858585;
+  --grey-60: #6F6F6F;
+  --grey-70: #595959;
+  --grey-80: #424242;
+  --grey-90: #2B2B2B;
+  --black: #151515;
+  
+/*  semantic ui colors  */
+  --danger: #F00048;
+  --warning: #F5EF00;
+  --success: #00F95A;
+  --info: #7467F7;     
+  --primary: var(--pink);
+  --secondary: var(--grey-50);
+  --light: var(--grey-20);
+  --dark: var(--grey-90);
+}
+
