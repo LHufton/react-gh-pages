@@ -10,7 +10,6 @@ import {
   faBootstrap,
   faYarn,
   faNpm,
-  faMicrosoft,
   faGitAlt
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -26,7 +25,6 @@ const categories = {
   'DevOps & Backend': [
     { label: 'SQL', icon: faDatabase },
     { label: 'Django', icon: faPython },
-    { label: '.NET Core', icon: faMicrosoft },
     { label: 'Express.js', icon: faNode },
     { label: 'FastAPI', icon: faPython },
     { label: 'MySQL', icon: faDatabase },
@@ -50,8 +48,12 @@ const Skills = () => {
           <h4>{category}</h4>
           <div className="skills-grid">
             {categories[category].map((skill) => (
-              <div key={skill.label} className="skill-item">
-                <FontAwesomeIcon icon={skill.icon} /> {skill.label}
+              <div
+                key={skill.label}
+                className="skill-item"
+                style={{ fontSize: '1.5rem' }}
+              >
+                <FontAwesomeIcon icon={skill.icon} size="3x" /> {skill.label}
               </div>
             ))}
           </div>
