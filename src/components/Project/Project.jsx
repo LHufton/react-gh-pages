@@ -10,12 +10,12 @@ import {
 import Simon from '../../images/Simon.png'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 import UnpopularOpinions from '../../images/UnpopularOpinions.png'
-// import { ReactComponent as DjangoIcon } from '../../assets/Django.svg'
 
 const projectsData = [
   {
     img: Simon,
     title: 'Simon',
+    description: 'A Simon game clone',
     technologies: [
       { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
       { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
@@ -26,17 +26,19 @@ const projectsData = [
   {
     img: UnpopularOpinions,
     title: 'Unpopular Opinions',
+    description:
+      'A social media app for sharing unpopular opinions with a sci-fi theme.',
     technologies: [
       { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
       { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
       { icon: faPython, label: 'Python', type: 'font-awesome' }
-      // { icon: DjangoIcon, label: 'Django', type: 'svg' }
     ],
     link: '#'
   },
   {
     img: TicTacToe,
     title: 'Tic Tac Toe',
+    description: 'A classic Tic Tac Toe game', // Added a description here as an example
     technologies: [
       { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
       { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
@@ -66,6 +68,8 @@ const Project = () => {
               />
             </a>
             <h3>{project.title}</h3>
+            <p>{project.description}</p>{' '}
+            {/* This line will render the project description */}
             <div className="tech-icons">
               {project.technologies.map((tech, idx) =>
                 tech.type === 'font-awesome' ? (
