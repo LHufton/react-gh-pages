@@ -29,24 +29,26 @@ const App = () => {
       <ErrorBoundary>
         <Nav />
       </ErrorBoundary>
-      <ErrorBoundary>
-        <Lead />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <About />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Skills />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Project />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Resume />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Contact />
-      </ErrorBoundary>
+      <main style={{ padding: '0 3rem' }}>
+        <ErrorBoundary>
+          <Lead />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <About />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Skills />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Project />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Resume />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Contact />
+        </ErrorBoundary>
+      </main>
       <ErrorBoundary>
         <Footer />
       </ErrorBoundary>
