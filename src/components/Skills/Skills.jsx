@@ -1,4 +1,5 @@
 import React from 'react'
+import './Skills.css'
 import Javascript from '../../assets/Javascript.svg'
 import Python from '../../assets/Python.svg'
 import Java from '../../assets/Java.svg'
@@ -45,10 +46,11 @@ const Skills = () => {
   return (
     <div>
       <h3>Skills</h3>
+
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">
           <h4>{category}</h4>
-          <div id="skills-grid">
+          <div id="skills-grid" className="auto-grid-small">
             {categories[category].map((skill) => (
               <div
                 key={skill.label}

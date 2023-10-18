@@ -47,7 +47,7 @@ const Project = () => {
   return (
     <div>
       <h2>Projects</h2>
-      <div id="projects-grid">
+      <div className="auto-grid-medium">
         {projectsData.map((project, index) => (
           <div
             key={index}
@@ -70,6 +70,7 @@ const Project = () => {
                   <img
                     key={idx}
                     src={tech.icon}
+                    alt=" "
                     title={tech.label}
                     className="svg-icon"
                   />
