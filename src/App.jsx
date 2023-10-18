@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary'
 import Lead from './components/Lead/Lead'
 import Nav from './components/Navbar/Navbar'
 import About from './components/About/About'
@@ -25,14 +26,30 @@ const App = () => {
 
   return (
     <React.StrictMode>
-      <Nav />
-      <Lead />
-      <About />
-      <Skills />
-      <Project />
-      <Resume />
-      <Contact />
-      <Footer />
+      <ErrorBoundary>
+        <Nav />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Lead />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <About />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Skills />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Project />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Resume />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Contact />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Footer />
+      </ErrorBoundary>
     </React.StrictMode>
   )
 }

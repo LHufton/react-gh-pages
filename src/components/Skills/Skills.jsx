@@ -46,7 +46,7 @@ const Skills = () => {
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">
           <h4>{category}</h4>
-          <div className="skills-grid">
+          <div id="skills-grid">
             {categories[category].map((skill) => (
               <div
                 key={skill.label}

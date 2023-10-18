@@ -7,7 +7,7 @@ const Navbar = () => {
       <header>
         <ul id="Navbar" className="shadow">
           <li>
-            <a href="#projects-grid">Projects</a>
+            <a href="#About">About</a>
           </li>
           <li>
             <a href="#skills-grid">Skills</a>
@@ -17,6 +17,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#Contact">Contact</a>
+          </li>
+          <li>
+            <a href="#projects-grid">Projects</a>
           </li>
         </ul>
       </header>
