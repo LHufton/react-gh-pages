@@ -1,41 +1,43 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-import {
-  faJs,
-  faPython,
-  faJava,
-  faReact,
-  faVuejs,
-  faNode,
-  faBootstrap,
-  faYarn,
-  faNpm,
-  faGitAlt
-} from '@fortawesome/free-brands-svg-icons'
+import React from 'react'
+import Javascript from '../../assets/Javascript.svg'
+import Python from '../../assets/Python.svg'
+import Java from '../../assets/Java.svg'
+import ReactSVG from '../../assets/React.svg'
+import Vue from '../../assets/Vue.svg'
+import NodeJs from '../../assets/NodeJs.svg'
+import SQL from '../../assets/SQL.svg'
+import Django from '../../assets/Django.svg'
+import Fastapi from '../../assets/Fastapi.svg'
+import Mysql from '../../assets/Mysql.svg'
+import Postgresql from '../../assets/Postgresql.svg'
+import Mongodb from '../../assets/Mongodb.svg'
+import Bootstrap from '../../assets/Bootstrap.svg'
+import MaterialUI from '../../assets/MaterialUI.svg'
+import Tailwind from '../../assets/Tailwind.svg'
+import Git from '../../assets/Git.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
-    { label: 'JavaScript', icon: faJs },
-    { label: 'Python', icon: faPython },
-    { label: 'Java', icon: faJava },
-    { label: 'React.js', icon: faReact },
-    { label: 'Vue.js', icon: faVuejs },
-    { label: 'Node.js', icon: faNode }
+    { label: 'JavaScript', icon: Javascript },
+    { label: 'Python', icon: Python },
+    { label: 'Java', icon: Java },
+    { label: 'React.js', icon: ReactSVG },
+    { label: 'Vue.js', icon: Vue },
+    { label: 'Node.js', icon: NodeJs }
   ],
   'DevOps & Backend': [
-    { label: 'SQL', icon: faDatabase },
-    { label: 'Django', icon: faPython },
-    { label: 'Express.js', icon: faNode },
-    { label: 'FastAPI', icon: faPython },
-    { label: 'MySQL', icon: faDatabase },
-    { label: 'PostgreSQL', icon: faDatabase },
-    { label: 'MongoDB', icon: faDatabase }
+    { label: 'SQL', icon: SQL },
+    { label: 'Django', icon: Django },
+    { label: 'FastAPI', icon: Fastapi },
+    { label: 'MySQL', icon: Mysql },
+    { label: 'PostgreSQL', icon: Postgresql },
+    { label: 'MongoDB', icon: Mongodb }
   ],
   'Development Tools & Technologies': [
-    { label: 'Bootstrap', icon: faBootstrap },
-    { label: 'Material-UI', icon: faYarn },
-    { label: 'Tailwind CSS', icon: faNpm },
-    { label: 'Git', icon: faGitAlt }
+    { label: 'Bootstrap', icon: Bootstrap },
+    { label: 'Material-UI', icon: MaterialUI },
+    { label: 'Tailwind CSS', icon: Tailwind },
+    { label: 'Git', icon: Git }
   ]
 }
 
@@ -53,7 +55,13 @@ const Skills = () => {
                 className="skill-item"
                 style={{ fontSize: '1.5rem' }}
               >
-                <FontAwesomeIcon icon={skill.icon} size="3x" /> {skill.label}
+                <img
+                  src={skill.icon}
+                  alt={skill.label}
+                  width="50"
+                  height="50"
+                />{' '}
+                {skill.label}
               </div>
             ))}
           </div>
