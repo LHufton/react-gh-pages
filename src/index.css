@@ -1,56 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} 
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0 auto;
-  max-width: 1200px;
-  background-color: rgb(246, 251, 253);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-
-button {
-  margin-top: 20px;
-  background-color: white;
-  padding: 10px 20px;
-  border: solid px black;
-  border-radius: 5px;
-  color: #160202;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
 :root {
   
   --root-size: 56.25%; /* equal to 9px = 1em = 1rem */
@@ -148,8 +95,54 @@ button {
   --secondary: var(--grey-50);
   --light: var(--grey-20);
   --dark: var(--grey-90);
+}
 
-  h1,
+*,
+[class*="auto-grid"] > * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: var(--font-size-default);
+  font-family: var(--font-family-default);  
+  background: var(--black);
+  color: var(--white);  
+  max-width: var(--space-8);
+  margin: 0 auto;
+}
+
+/* scrollbar width */
+
+::-webkit-scrollbar {
+  --scrollbar-thickness: var(--space-1);
+  width: var(--scrollbar-thickness);
+  height: var(--space-1);
+  background: var(--black);
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  border-radius: var(--space-0);
+  background: var(--dark);
+}
+ 
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--grey-80); 
+  border-radius: var(--space-0);
+  cursor: grab;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--grey-70); 
+}
+
+/* ------------- typography ------------*/
+h1,
 h2,
 h3,
 h4,
@@ -157,7 +150,7 @@ h5,
 h6 {
   line-height: var(--line-height-header);
   font-family: trash, syncopate, helvetica, arial, sans-serif;
-  text-transform: uppercase;
+  
 }
 
 h1 {
@@ -245,5 +238,276 @@ small {
 strong {
   font-weight: 700;
 }
+
+/* ------------ UI elements -----------*/
+
+button,
+input[type="submit"] {
+  background: var(--pink);
+  padding: 1em 2em;
+  font-size: var(--font-size-default);
+  color: var(--white);
+  font-family: var(--font-trash);
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  word-wrap: wrap;
+  cursor: pointer;
 }
+
+button:hover,
+a:hover,
+input[type="submit"]:hover {
+  -webkit-filter: brightness(1.1);
+  background: var(--light-pink-10);
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+button.secondary,
+input[type="submit"].secondary {
+  background: var(--secondary);
+}
+
+button.secondary:hover,
+input[type="submit"].secondary:hover {
+  background: var(--grey-40);
+}
+
+button.dark,
+input[type="submit"].dark,
+button.hollow,
+input[type="submit"].hollow {
+  background: var(--dark);
+}
+
+button.dark:hover,
+input[type="submit"].dark:hover,
+button.hollow,
+input[type="submit"].hollow {
+  background: var(--grey-80);
+}
+
+button.hollow,
+input[type="submit"].hollow {
+  outline: 1px solid var(--pink);
+  outline-offset: -1px;
+}
+
+/* normal inputs */
+
+input {
+  padding: var(--space-1);
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--secondary);
+  background: var(--dark);
+  color: inherit;
+  font-size: var(--font-size-default);
+  width: 100%;
+  transistion: 0.3s ease;
+}
+
+input:focus {
+  outline: 2px solid var(--pink);
+  outline-offset: -2px;
+  transform: scale(1.025);
+  transition: none;
+  background: var(--grey-80);
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--dark);
+}
+
+/* Checkbox */
+
+/* Customize the label (the container) */
+label.checkbox,
+label.radio {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--font-size-default);
+  text-transform: unset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: inherit;
+}
+
+/* Hide the browser's default checkbox */
+label.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+label.checkbox .checkmark,
+label.radio .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(var(--space-3) - var(--space-0));
+  width: calc(var(--space-3) - var(--space-0));
+  border: 1px solid var(--secondary);
+  background: var(--dark);
+}
+
+/* When the checkbox is checked, add a blue background */
+label.checkbox input:checked ~ .checkmark,
+label.radio input:checked ~ .checkmark {
+  background: var(--dark-grey-90);
+  transition: background 0.3s ease-out;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+label.checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+label.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+label.checkbox .checkmark:after {
+  left: 11px;
+  top: 6px;
+  width: var(--space-0);
+  height: var(--space-1);
+  border: solid var(--pink);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label.checkbox .text,
+label.radio .text {
+  padding: 0 0 0 calc(var(--space-3) + var(--space-2));
+}
+
+/* ---------radio button --------*/
+/* The container */
+label.radio {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+label.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+label.radio .checkmark {
+  position: absolute;
+  height: calc(var(--space-3) - var(--space-0));
+  width: calc(var(--space-3) - var(--space-0));
+  border-radius: 50% ;
+}
+
+/* When the radio button is checked, add a blue background */
+label.radio input:checked ~ .checkmark,
+label.checkbox input:checked ~ .checkmark {
+  background-color: var(--dark);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+label.radio .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+label.radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+label.radio .checkmark:after {
+  top: 10px;
+  left: 10px;
+  width: var(--space-1);
+  height: var(--space-1);
+  border-radius: 50%;
+  background: var(--pink);
+}
+
+/* On mouse-over, add a grey background color */
+label.checkbox:hover input ~ .checkmark,
+label.radio:hover input ~ .checkmark,
+input:hover {
+  background: var(--grey-80);
+  transition: none;
+}
+
+/* auto grid */
+
+.auto-grid-5,
+.auto-grid-small,
+.auto-grid,
+.auto-grid-medium,
+.auto-grid-6,
+.auto-grid-large,
+.auto-grid-7 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: var(--space-3);
+}
+
+.auto-grid-5,
+.auto-grid-small {
+  grid-template-columns: repeat(auto-fill, minmax(var(--space-5), 1fr));
+  grid-gap: var(--space-2);
+}
+
+.auto-grid,
+.auto-grid-6,
+.auto-grid-medium {
+  grid-template-columns: repeat(auto-fill, minmax(var(--space-6), 1fr));
+}
+
+.auto-grid-7,
+.auto-grid-large {
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 786px){
+.auto-grid-7,
+.auto-grid-large {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--space-3);
+}
+}
+
 
