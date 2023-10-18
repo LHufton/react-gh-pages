@@ -50,20 +50,16 @@ const Skills = () => {
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">
           <h4>{category}</h4>
-          <div id="skills-grid" className="auto-grid-small">
+          <div className="auto-grid-small">
             {categories[category].map((skill) => (
-              <div
-                key={skill.label}
-                className="skill-item"
-                style={{ fontSize: '1.5rem' }}
-              >
+              <div key={skill.label} className="skill-item">
                 <img
                   src={skill.icon}
                   alt={skill.label}
                   width="50"
                   height="50"
                 />{' '}
-                {skill.label}
+                <label>{skill.label}</label>
               </div>
             ))}
           </div>

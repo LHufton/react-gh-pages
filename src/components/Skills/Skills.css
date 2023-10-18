@@ -10,9 +10,9 @@
 
 .skills-grid {
   display: flex;
-  gap: 1rem;
+  gap: 6rem;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 1rem;
 }
 
