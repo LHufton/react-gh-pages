@@ -24,6 +24,17 @@ const projectsData = [
     link: '#'
   },
   {
+    img: TicTacToe,
+    title: 'Tic Tac Toe',
+    description: 'A classic Tic Tac Toe game',
+    technologies: [
+      { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
+      { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
+      { icon: faJs, label: 'JavaScript', type: 'font-awesome' }
+    ],
+    link: 'https://unit1ttt-app.surge.sh/'
+  },
+  {
     img: UnpopularOpinions,
     title: 'Unpopular Opinions',
     description:
@@ -32,17 +43,6 @@ const projectsData = [
       { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
       { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
       { icon: faPython, label: 'Python', type: 'font-awesome' }
-    ],
-    link: '#'
-  },
-  {
-    img: TicTacToe,
-    title: 'Tic Tac Toe',
-    description: 'A classic Tic Tac Toe game', // Added a description here as an example
-    technologies: [
-      { icon: faHtml5, label: 'HTML', type: 'font-awesome' },
-      { icon: faCss3Alt, label: 'CSS', type: 'font-awesome' },
-      { icon: faJs, label: 'JavaScript', type: 'font-awesome' }
     ],
     link: '#'
   }
@@ -69,7 +69,6 @@ const Project = () => {
             </a>
             <h3>{project.title}</h3>
             <p>{project.description}</p>{' '}
-            {/* This line will render the project description */}
             <div className="tech-icons">
               {project.technologies.map((tech, idx) =>
                 tech.type === 'font-awesome' ? (
