@@ -24,15 +24,14 @@ const Resume = () => {
   return (
     <div id="Resume" className="intro">
       <h1>Resumé</h1>
-      <button className="Resume-btn">
-        <a
-          href="/images/Resumé.pdf"
-          download="resume.pdf"
-          className="download-resume"
-        >
-          Download Resumé
-        </a>
-      </button>
+      <a
+        href="/images/Resumé.pdf"
+        download="resume.pdf"
+        className="download-resume"
+      >
+        Download Resumé
+        <button className="Resume-btn"></button>
+      </a>
       <p>
         Experienced Full Stack Software Developer with expertise in a wide range
         of technologies. Passionate about creating applications that enable
