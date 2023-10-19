@@ -16,6 +16,7 @@ import Bootstrap from '../../assets/Bootstrap.svg'
 import MaterialUI from '../../assets/MaterialUI.svg'
 import Tailwind from '../../assets/Tailwind.svg'
 import Git from '../../assets/Git.svg'
+import Heroku from '../../assets/Heroku.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -35,6 +36,7 @@ const categories = {
     { label: 'SQL', icon: SQL },
     { label: 'MySQL', icon: Mysql },
     { label: 'PostgreSQL', icon: Postgresql },
+    { label: 'Heroku', icon: Heroku },
     { label: 'MongoDB', icon: Mongodb }
   ],
   'Development Tools & Technologies': [{ label: 'Git', icon: Git }]
