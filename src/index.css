@@ -77,7 +77,17 @@
   --grey-80: #424242;
   --grey-90: #2B2B2B;
   --black: #151515;
-  
+
+  --orange-900: #2A1003;
+  --orange-800: #551F07;
+  --orange-700: #7F2F0A;
+  --orange-600: #A93F0E;
+  --orange-500: #D44F11;
+  --orange-400: #DC6E3A;
+  --orange-300: #E58F67;
+  --orange-200: #EEB296;
+  --orange-100: #F6D7C9;
+
 /*  semantic ui colors  */
   --danger: #F00048;
   --warning: #F5EF00;
@@ -234,12 +244,10 @@ strong {
 
 button,
 input[type="submit"] {
-  background: var(--pink);
+  background: var(--orange-400);
   padding: 1em 2em;
   font-size: var(--font-size-default);
   color: var(--white);
-  font-family: var(--font-trash);
-  text-transform: uppercase;
   border: none;
   -webkit-transition: 0.2s ease-out;
   -o-transition: 0.2s ease-out;
@@ -255,7 +263,6 @@ button:hover,
 a:hover,
 input[type="submit"]:hover {
   -webkit-filter: brightness(1.1);
-  background: var(--light-pink-10);
   -webkit-transform: scale(1.025);
   -ms-transform: scale(1.025);
   transform: scale(1.025);

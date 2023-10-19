@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
+import './Contact.css'
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('xrgwqjoj')
