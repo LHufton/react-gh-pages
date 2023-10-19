@@ -2,13 +2,14 @@
 
 #Profile {
   border: .25px solid black;
+  object-fit: contain;
   border-radius: 4%;
   width: 80%;
   height: auto; 
   max-width: 500px;
   max-height: 600px;
   box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: -150px;
+
 }
 
 
