@@ -18,14 +18,6 @@
 
   /*typography*/
 
-  /* font families */
-  --font-family-default: Messina Sans, Open Sans, sans-serif;
-  --font-primary: var(--font-family-default);
-  --font-trash: Trash, serif; /* todo: get fonts */
-  --font-header: var(--font-trash);
-  --font-syncopate: Syncopate, sans-serif;
-  --font-family-label: var(--font-family-default);
-
   /* font scaling */
   --font-scale-ratio: calc(4 / 3); /* 4:3 perfect fourth ratio */
 
@@ -128,7 +120,6 @@ body {
   border-radius: var(--space-0);
   background: var(--dark);
 }
- 
 /* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--grey-80); 

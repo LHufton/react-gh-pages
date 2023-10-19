@@ -13,7 +13,7 @@
 #Navbar li a {
   font-size: x-large;
   text-decoration: none;
-  color: rgb(113, 133, 163);
+  color: var(--white);
   font-weight: bold;
   padding: 0.5rem;
   transition: color 0.3s ease;
