@@ -24,12 +24,12 @@ const categories = {
     { label: 'Java', icon: Java },
     { label: 'React.js', icon: ReactSVG },
     { label: 'Vue.js', icon: Vue },
+    { label: 'Django', icon: Django },
     { label: 'Node.js', icon: NodeJs }
   ],
   'DevOps & Backend': [
-    { label: 'SQL', icon: SQL },
-    { label: 'Django', icon: Django },
     { label: 'FastAPI', icon: Fastapi },
+    { label: 'SQL', icon: SQL },
     { label: 'MySQL', icon: Mysql },
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'MongoDB', icon: Mongodb }
