@@ -25,6 +25,9 @@ const categories = {
     { label: 'React.js', icon: ReactSVG },
     { label: 'Vue.js', icon: Vue },
     { label: 'Django', icon: Django },
+    { label: 'Bootstrap', icon: Bootstrap },
+    { label: 'Material-UI', icon: MaterialUI },
+    { label: 'Tailwind CSS', icon: Tailwind },
     { label: 'Node.js', icon: NodeJs }
   ],
   'DevOps & Backend': [
@@ -34,12 +37,7 @@ const categories = {
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'MongoDB', icon: Mongodb }
   ],
-  'Development Tools & Technologies': [
-    { label: 'Bootstrap', icon: Bootstrap },
-    { label: 'Material-UI', icon: MaterialUI },
-    { label: 'Tailwind CSS', icon: Tailwind },
-    { label: 'Git', icon: Git }
-  ]
+  'Development Tools & Technologies': [{ label: 'Git', icon: Git }]
 }
 
 const Skills = () => {
