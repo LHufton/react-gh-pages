@@ -6,10 +6,10 @@ import ProfilePic from '../../images/Profile.jpeg'
 
 const Lead = () => {
   return (
-    <div id="Lead">
-      <h2 className="heading">Luke Hufton</h2>
-      <h4>Fullstack Software Developer</h4>
+    <div id="Lead" className="auto-grid-large">
       <div className="about-text">
+        <h2 className="heading">Luke Hufton</h2>
+        <h4>Fullstack Software Developer</h4>
         <h5>Located in: Memphis, TN</h5>
         <div className="social-links">
           <a
@@ -27,9 +27,9 @@ const Lead = () => {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </div>
-        <div className="profile-container">
-          <img id="Profile" src={ProfilePic} alt="Luke Hufton" />
-        </div>
+      </div>
+      <div className="profile-container">
+        <img id="Profile" src={ProfilePic} alt="Luke Hufton" />
       </div>
     </div>
   )
