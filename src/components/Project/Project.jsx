@@ -4,40 +4,40 @@ import Simon from '../../images/Simon.png'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 import UnpopularOpinions from '../../images/UnpopularOpinions.png'
 import Django from '../../assets/Django.svg'
-// import Git from '../../assets/Git.svg'
 import Javascript from '../../assets/Javascript.svg'
-// import MaterialUI from '../../assets/MaterialUI.svg'
-// import Miro from '../../assets/Miro.svg'
-// import Mongodb from '../../assets/Mongodb.svg'
-// import Mysql from '../../assets/Mysql.svg'
-// import NodeJs from '../../assets/NodeJs.svg'
-// import Postgresql from '../../assets/Postgresql.svg'
 import Python from '../../assets/Python.svg'
-// import ReactSVG from '../../assets/React.svg'
-// import Slack from '../../assets/Slack.svg'
-// import SQL from '../../assets/SQL.svg'
-// import Tailwind from '../../assets/Tailwind.svg'
-// import Trello from '../../assets/Trello.svg'
-// import Vue from '../../assets/Vue.svg'
+import CSS from '../../assets/CSS.svg'
+import HTML from '../../assets/HTML.svg'
+import Surge from '../../assets/Surge.svg'
 
 const projectsData = [
   {
     img: Simon,
     title: 'Simon',
-    description: 'A Simon game clone',
-    technologies: [{ icon: Python, label: 'Python', type: 'svg' }],
-    link: '#'
+    description: 'The classic Simon memory game',
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Surge, label: 'Surge', type: 'svg' }
+    ],
+    link: 'https://lhufton.github.io/Simon/gamePage.html'
   },
   {
     img: UnpopularOpinions,
     title: 'Unpopular Opinions',
-    description: 'A social media app',
-    technologies: [{ icon: Django, label: 'Django', type: 'svg' }],
+    description:
+      'A social media app for sharing unpopular opinions related to science fiction and fantasy',
+    technologies: [
+      { icon: Django, label: 'Django', type: 'svg' },
+      { icon: Python, label: 'Python', type: 'svg' }
+    ],
     link: '#'
   },
   {
     img: TicTacToe,
     title: 'Tic Tac Toe',
+    description: 'A Tic Tac Toe game',
     technologies: [{ icon: Javascript, label: 'Javascript', type: 'svg' }],
     link: '#'
   }
@@ -70,7 +70,7 @@ const Project = () => {
                   <img
                     key={idx}
                     src={tech.icon}
-                    alt=" "
+                    alt={tech.label}
                     title={tech.label}
                     className="svg-icon"
                   />

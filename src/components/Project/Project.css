@@ -1,10 +1,8 @@
-
-
 .project-img, .svg-icon {
   aspect-ratio: 4/3;
   width: auto;
-  height: 250px; 
-  object-fit: contain;  
+  height: 250px;
+  object-fit: contain;
 }
 
 .tech-icons {
@@ -13,29 +11,14 @@
   gap: 10px;  /* Creates space between the icons */
 }
 
-/* Style each FontAwesome icon */
+/* Updated style for SVG icons */
+.svg-icon {
+  width: 40px;  /* Adjust as needed */
+  height: 40px;  /* Adjust as needed */
+}
+
+/* Legacy FontAwesome icon style, can be removed if not in use */
 .tech-icons .svg-inline--fa {
   font-size: 20px;
   color: #333;
 }
-
-
-
-.tech-icons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 10px;  /* Creates space between the icons */
-}
-
-/* Style each SVG icon */
-.tech-icons svg {
-  width: 20px;  /* You can change these dimensions as you see fit */
-  height: 20px;
-}
-
-/* Style each FontAwesome icon - can be removed if you're fully switching to SVGs */
-.tech-icons .svg-inline--fa {
-  font-size: 20px;
-  color: #333;
-}
-
