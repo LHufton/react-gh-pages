@@ -9,6 +9,7 @@ import Python from '../../assets/Python.svg'
 import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
+import GitHub from '../../assets/GitHub.svg'
 
 const projectsData = [
   {
@@ -21,7 +22,8 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
-    link: 'https://lhufton.github.io/Simon/gamePage.html'
+    link: 'https://lhufton.github.io/Simon/gamePage.html',
+    gitHubLink: 'https://github.com/LHufton/Simon'
   },
   {
     img: UnpopularOpinions,
