@@ -13,27 +13,26 @@ import GitHub from '../../assets/GitHub.svg'
 
 const projectsData = [
   {
-    img: Simon,
     title: 'Simon',
+    img: Simon,
     description: 'The classic Simon memory game',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' },
-      { icon: Surge, label: 'Surge', type: 'svg' }
+      { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon',
-    deployIcon: Surge
+    gitHubLink: 'https://github.com/LHufton/Simon'
+    // deployIcon: Surge
   },
   {
-    img: UnpopularOpinions,
     title: 'Unpopular Opinions',
+    img: UnpopularOpinions,
     description: 'A social media app for sharing unpopular opinions.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
-
+      { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: '#',
@@ -41,8 +40,8 @@ const projectsData = [
     deployIcon: Surge
   },
   {
-    img: TicTacToe,
     title: 'Tic Tac Toe',
+    img: TicTacToe,
     description: 'A Tic Tac Toe game',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
@@ -71,7 +70,7 @@ const Project = () => {
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={project.deployIcon}
-                  alt="Live Link"
+                  alt="Launched Project"
                   className="svg-icon"
                 />
               </a>

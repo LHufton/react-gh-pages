@@ -9,8 +9,11 @@ const Lead = () => {
     <div id="Lead" className="auto-grid-large">
       <div className="about-text">
         <h2 className="heading">Luke Hufton</h2>
+        <br />
         <h4>Fullstack Software Developer</h4>
+        <br />
         <h5>Located in: Memphis, TN</h5>
+        <br />
         <div className="social-links">
           <a
             href="https://www.linkedin.com/in/luke-hufton/"
