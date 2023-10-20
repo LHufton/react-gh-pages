@@ -18,7 +18,7 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: CSS - 3, label: 'CSS-3', type: 'svg' },
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html'
@@ -27,7 +27,7 @@ const projectsData = [
     img: UnpopularOpinions,
     title: 'Unpopular Opinions',
     description:
-      'A social media app for sharing unpopular opinions related to science fiction and fantasy',
+      'A social media app for sharing unpopular opinions related to science fiction movies.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' }
