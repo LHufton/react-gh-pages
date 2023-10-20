@@ -23,29 +23,35 @@ const projectsData = [
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon'
+    gitHubLink: 'https://github.com/LHufton/Simon',
+    deployIcon: Surge
   },
   {
     img: UnpopularOpinions,
     title: 'Unpopular Opinions',
-    description:
-      'A social media app for sharing unpopular opinions related to science fiction movies.',
+    description: 'A social media app for sharing unpopular opinions.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
-      { icon: HTML, label: 'HTML', type: 'svg' },
+
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: '#',
-    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions'
+    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions',
+    deployIcon: Surge
   },
   {
     img: TicTacToe,
     title: 'Tic Tac Toe',
     description: 'A Tic Tac Toe game',
-    technologies: [{ icon: Javascript, label: 'Javascript', type: 'svg' }],
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' }
+    ],
     link: '#',
-    gitHubLink: 'https://github.com/LHufton/TicTacToe'
+    gitHubLink: 'https://github.com/LHufton/TicTacToe',
+    deployIcon: Surge
   }
 ]
 
@@ -63,8 +69,13 @@ const Project = () => {
           >
             <div className="project-links">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={Surge} alt="Live Link" className="svg-icon" />
-              </a>{' '}
+                <img
+                  src={project.deployIcon}
+                  alt="Live Link"
+                  className="svg-icon"
+                />
+              </a>
+              {' | '}
               <a
                 href={project.gitHubLink}
                 target="_blank"
