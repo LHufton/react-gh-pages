@@ -36,14 +36,16 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: '#'
+    link: '#',
+    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions'
   },
   {
     img: TicTacToe,
     title: 'Tic Tac Toe',
     description: 'A Tic Tac Toe game',
     technologies: [{ icon: Javascript, label: 'Javascript', type: 'svg' }],
-    link: '#'
+    link: '#',
+    gitHubLink: 'https://github.com/LHufton/TicTacToe'
   }
 ]
 
@@ -59,6 +61,18 @@ const Project = () => {
               .toLowerCase()
               .replace(/\s+/g, '-')}-project`}
           >
+            <div className="project-links">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={Surge} alt="Live Link" className="svg-icon" />
+              </a>{' '}
+              <a
+                href={project.gitHubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={GitHub} alt="GitHub" className="svg-icon" />
+              </a>
+            </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 className="project-img"
