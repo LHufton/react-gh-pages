@@ -30,8 +30,8 @@ const projectsData = [
       'A social media app for sharing unpopular opinions related to science fiction movies.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
-      { icon: Python, label: 'Python', type: 'svg' }
-      { icon: HTML, label: 'HTML', type: 'svg' }
+      { icon: Python, label: 'Python', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: '#'
