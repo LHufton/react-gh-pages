@@ -45,11 +45,20 @@ const Resume = () => {
           <em>Insurance Producer</em>
         </h5>
         <p>
-          Collierville, TN 09/21 - 03/23 <br />
-          Obtained licensure to sell property, casualty, and health insurance.
-          Worked independently and in small teams to solicit policies for
-          qualified customers. Conducted data analysis to generate new leads and
-          marketing materials.
+          <ul>
+            <li>
+              Obtained licensure to sell property, casualty, and health
+              insurance.
+            </li>
+            <li>
+              Worked independently and in small teams to solicit policies for
+              qualified customers.
+            </li>
+            <li>
+              Conducted data analysis to generate new leads and marketing
+              materials.
+            </li>
+          </ul>
         </p>
         <h3>Hufton Hybrid Roofing and Restoration</h3>
 
@@ -58,12 +67,11 @@ const Resume = () => {
         </h5>
         <p>Memphis, TN 06/2018-12/2020</p>
         <p>
-          Owned and operated a roofing and restoration company responsible for
-          all of the tasks required to operate smoothly. <br /> Project
-          management, logistics, and quality control. Administrative duties,
-          inventory, billing, payroll, customer service. Sales and new hire
-          training. Met with insurance adjusters, created and compared
-          replacement estimates using Xactimate.
+          I owned and operated an insurance roofing and restoration company
+          <br /> Project management, logistics, and quality control.
+          Administrative duties, inventory, billing, payroll, customer service.
+          Sales and new hire training. Met with insurance adjusters, created and
+          compared replacement estimates using Xactimate.
         </p>
         <h3>Southern Roofing and Restoration</h3>
 
@@ -93,18 +101,17 @@ const Resume = () => {
           interiors and providing roofing repair estimates. I first learned how
           to use Xactimate and other estimating software such as eagle view.
         </p>
-        <h3>State Farm Insurance </h3>
+        <h3>State Farm Insurance Company</h3>
 
         <h5>
           <em>Insurance Producer</em>
         </h5>
         <p>Collierville, TN 03/2014-05/2015</p>
         <p>
-          I was a fully licensed insurance producer licensed to sell property,
-          casualty, life and health insurance. I solicited business through
-          telecommunications and in person. I worked with small offices
-          including interns to provide expert sales advice and exemplary
-          customer service.
+          I am currently licensed by the state of Tennessee to sell property,
+          casualty, and health insurance. I worked independently and in small
+          teams to solicit policies for qualified customers. I conducted data
+          analysis to generate new leads and marketing materials.
         </p>
       </div>
       <div className="education">

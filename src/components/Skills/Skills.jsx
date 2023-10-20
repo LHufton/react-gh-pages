@@ -17,6 +17,8 @@ import MaterialUI from '../../assets/MaterialUI.svg'
 import Tailwind from '../../assets/Tailwind.svg'
 import Git from '../../assets/Git.svg'
 import Heroku from '../../assets/Heroku.svg'
+import Surge from '../../assets/Surge.svg'
+import Miro from '../../assets/Miro.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -37,9 +39,13 @@ const categories = {
     { label: 'MySQL', icon: Mysql },
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'Heroku', icon: Heroku },
+    { label: 'Surge', icon: Surge },
     { label: 'MongoDB', icon: Mongodb }
   ],
-  'Development Tools & Technologies': [{ label: 'Git', icon: Git }]
+  'Development Tools & Technologies': [
+    { label: 'Git', icon: Git },
+    { label: 'Miro', icon: Miro }
+  ]
 }
 
 const Skills = () => {
