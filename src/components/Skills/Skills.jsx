@@ -42,7 +42,7 @@ const categories = {
     { label: 'Surge', icon: Surge },
     { label: 'MongoDB', icon: Mongodb }
   ],
-  'Development Tools & Technologies': [
+  'Version Control & Planning': [
     { label: 'Git', icon: Git },
     { label: 'Miro', icon: Miro }
   ]
@@ -51,7 +51,7 @@ const categories = {
 const Skills = () => {
   return (
     <div>
-      <h3>Skills</h3>
+      <h3>The tools I use.</h3>
 
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">

@@ -5,11 +5,8 @@ import './About.css'
 const About = () => {
   return (
     <div id="About">
-      <h2 className="heading">About Me</h2>
-      <p>
-        I am a full stack software engineer, with an entrepreneurial background.
-        I enjoy solving problems by finding efficient solutions.{' '}
-      </p>
+      <h2 className="heading">What I like to do</h2>
+      <p>I enjoy creating applications to benefit people's lives.</p>
       <div className="about-text"></div>
       <div className="about-me-container"></div>
     </div>
