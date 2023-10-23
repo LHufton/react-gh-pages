@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5266aad0.css",
-    "main.js": "/react-gh-pages/static/js/main.c43d33c9.js",
+    "main.css": "/react-gh-pages/static/css/main.f0db7ad2.css",
+    "main.js": "/react-gh-pages/static/js/main.36c5cd52.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -10,6 +10,7 @@
     "static/media/Mongodb.svg": "/react-gh-pages/static/media/Mongodb.71878b738f870a417c999759fb2368a8.svg",
     "static/media/Surge.svg": "/react-gh-pages/static/media/Surge.cff583e86d844299ff3fee42fe92ac68.svg",
     "static/media/NodeJs.svg": "/react-gh-pages/static/media/NodeJs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/FlyIO.svg": "/react-gh-pages/static/media/FlyIO.d334534136f2e059a9c74ea7d4361a06.svg",
     "static/media/Postgresql.svg": "/react-gh-pages/static/media/Postgresql.ae92b576b8ea41666538c0756df27969.svg",
     "static/media/Mysql.svg": "/react-gh-pages/static/media/Mysql.f586030ae346497d3d321e6203efeead.svg",
     "static/media/Django.svg": "/react-gh-pages/static/media/Django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
@@ -29,11 +30,11 @@
     "static/media/Heroku.svg": "/react-gh-pages/static/media/Heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.5266aad0.css.map": "/react-gh-pages/static/css/main.5266aad0.css.map",
-    "main.c43d33c9.js.map": "/react-gh-pages/static/js/main.c43d33c9.js.map"
+    "main.f0db7ad2.css.map": "/react-gh-pages/static/css/main.f0db7ad2.css.map",
+    "main.36c5cd52.js.map": "/react-gh-pages/static/js/main.36c5cd52.js.map"
   },
   "entrypoints": [
-    "static/css/main.5266aad0.css",
-    "static/js/main.c43d33c9.js"
+    "static/css/main.f0db7ad2.css",
+    "static/js/main.36c5cd52.js"
   ]
 }
