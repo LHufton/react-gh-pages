@@ -20,7 +20,6 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-sm-2 top">
-            {/* Added onClick event here */}
             <span id="to-top" onClick={scrollToTop}>
               <i className="fa fa-chevron-up" aria-hidden="true"></i>
             </span>

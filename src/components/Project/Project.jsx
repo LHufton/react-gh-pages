@@ -10,6 +10,7 @@ import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
 import GitHub from '../../assets/GitHub.svg'
+import FlyIO from '../../assets/FlyIO.svg'
 
 const projectsData = [
   {
@@ -38,7 +39,7 @@ const projectsData = [
     ],
     link: 'https://lhufton.github.io/UnpopularOpinions',
     gitHubLink: 'https://github.com/LHufton/UnpopularOpinions',
-    deployIcon: Surge
+    deployIcon: FlyIO
   },
   {
     title: 'Tic Tac Toe',
@@ -49,7 +50,7 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: 'https://unit1ttt-app.surge.sh/',
+    link: 'https://lhufton.github.io/TicTacToe',
     gitHubLink: 'https://github.com/LHufton/TicTacToe',
     deployIcon: Surge
   }
