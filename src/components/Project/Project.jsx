@@ -33,6 +33,7 @@ const projectsData = [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: Surge, label: 'Surge', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: '#',

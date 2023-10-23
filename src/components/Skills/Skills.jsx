@@ -19,6 +19,7 @@ import Git from '../../assets/Git.svg'
 import Heroku from '../../assets/Heroku.svg'
 import Surge from '../../assets/Surge.svg'
 import Miro from '../../assets/Miro.svg'
+import FlyIO from '../../assets/FlyIO.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -40,6 +41,7 @@ const categories = {
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'Heroku', icon: Heroku },
     { label: 'Surge', icon: Surge },
+    { label: 'Fly.io', icon: FlyIO },
     { label: 'MongoDB', icon: Mongodb }
   ],
   'Version Control & Planning': [
@@ -51,7 +53,7 @@ const categories = {
 const Skills = () => {
   return (
     <div>
-      <h3>The tools I use.</h3>
+      <h2>The tools I use.</h2>
 
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">
