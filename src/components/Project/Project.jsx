@@ -36,7 +36,7 @@ const projectsData = [
       { icon: Surge, label: 'Surge', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: '#',
+    link: 'https://lhufton.github.io/UnpopularOpinions',
     gitHubLink: 'https://github.com/LHufton/UnpopularOpinions',
     deployIcon: Surge
   },
@@ -49,7 +49,7 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: '#',
+    link: 'https://unit1ttt-app.surge.sh/',
     gitHubLink: 'https://github.com/LHufton/TicTacToe',
     deployIcon: Surge
   }
@@ -94,17 +94,15 @@ const Project = () => {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="tech-icons">
-              {project.technologies.map((tech, idx) =>
-                tech.type === 'svg' ? (
-                  <img
-                    key={idx}
-                    src={tech.icon}
-                    alt={tech.label}
-                    title={tech.label}
-                    className="svg-icon"
-                  />
-                ) : null
-              )}
+              {project.technologies.map((tech, idx) => (
+                <img
+                  key={idx}
+                  src={tech.icon}
+                  alt={tech.label}
+                  title={tech.label}
+                  className="svg-icon"
+                />
+              ))}
             </div>
           </div>
         ))}
