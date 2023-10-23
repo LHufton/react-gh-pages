@@ -2,6 +2,13 @@ import React from 'react'
 
 import './About.css'
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
+
 const About = () => {
   return (
     <div id="About">
@@ -14,12 +21,12 @@ const About = () => {
       <h2 className="what">What I like to do</h2>
       <p>
         I enjoy a challenge and software engineering provides plenty of them. I
-        am at my best when the problems I am solving have positive impact on our
-        communities.
+        am at my best when the problems I am solving have a positive impact on
+        people and enrich their lives.
       </p>
-
-      <div className="about-text"></div>
-      <div className="about-me-container"></div>
+      <span id="to-top" onClick={scrollToTop}>
+        <i className="fa fa-chevron-up" aria-hidden="true"></i>
+      </span>
     </div>
   )
 }
