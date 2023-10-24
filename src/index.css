@@ -21,7 +21,6 @@
   /* font scaling */
   --font-scale-ratio: calc(4 / 3); /* 4:3 perfect fourth ratio */
 
-  /* scaling */
   --font-size-h6: calc(var(--space-1) * var(--font-scale-ratio)); /* 12px | 1.3333rem */
   --font-size-h5: calc(var(--font-size-h6) * var(--font-scale-ratio)); /* 16px  |  1.7778rem */
   --font-size-h4: calc(var(--font-size-h5) * var(--font-scale-ratio)); /* 21.3333px 2.3704rem */
@@ -34,10 +33,9 @@
   --font-size-label: var(--font-size-h6);
   --font-size-button: var(--font-size-default);
 
-  /* set default font size*/
+
   --font-size-default: var(--font-size-p);
 
-  /* lineheight || "letting" */
   --line-height-default: 2;
   --line-height-header: calc(0.79 * 5 / 3);
   --line-height-p: var(--line-height-default);
