@@ -29,7 +29,8 @@ const projectsData = [
   {
     title: 'Unpopular Opinions',
     img: UnpopularOpinions,
-    description: 'A social media app for sharing unpopular opinions.',
+    description:
+      'A social media app for sharing unpopular opinions about science fiction movies.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
