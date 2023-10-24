@@ -51,7 +51,7 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: 'https://lhufton.github.io/TicTacToe',
+    link: 'https://unit1ttt-app.surge.sh/',
     gitHubLink: 'https://github.com/LHufton/TicTacToe',
     deployIcon: Surge
   }
