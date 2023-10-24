@@ -5,6 +5,8 @@ import Python from '../../assets/Python.svg'
 import Java from '../../assets/Java.svg'
 import ReactSVG from '../../assets/React.svg'
 import Vue from '../../assets/Vue.svg'
+import VSC from '../../assets/VisualStudioCode.svg'
+import Sublime from '../../assets/Sublime.svg'
 import NodeJs from '../../assets/NodeJs.svg'
 import SQL from '../../assets/SQL.svg'
 import Django from '../../assets/Django.svg'
@@ -47,6 +49,10 @@ const categories = {
   'Version Control & Planning': [
     { label: 'Git', icon: Git },
     { label: 'Miro', icon: Miro }
+  ]
+  'Code editors': [
+    { label: 'Sublime', icon: Sublime },
+    { label: 'Visual Studio Code', icon: VSC }
   ]
 }
 
