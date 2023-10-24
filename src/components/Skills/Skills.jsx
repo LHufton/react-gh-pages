@@ -49,7 +49,7 @@ const categories = {
   'Version Control & Planning': [
     { label: 'Git', icon: Git },
     { label: 'Miro', icon: Miro }
-  ]
+  ],
   'Code editors': [
     { label: 'Sublime', icon: Sublime },
     { label: 'Visual Studio Code', icon: VSC }
@@ -59,7 +59,7 @@ const categories = {
 const Skills = () => {
   return (
     <div id="Skills">
-      <h2>What I know.</h2>
+      <h2>Technologies I like to use.</h2>
 
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">

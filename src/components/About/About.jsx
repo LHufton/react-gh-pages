@@ -12,7 +12,6 @@ const scrollToTop = () => {
 const About = () => {
   return (
     <div id="About">
-      <h2 className="who">Who I am.</h2>
       <p>
         I am a divergent thinker with a passion for mental health and wellness
         applications. I enjoy solving problems that provide a positive impact.
