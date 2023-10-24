@@ -52,8 +52,8 @@ const categories = {
 
 const Skills = () => {
   return (
-    <div>
-      <h2>The tools I use.</h2>
+    <div id="Skills">
+      <h2>What I know.</h2>
 
       {Object.keys(categories).map((category) => (
         <div key={category} className="category">

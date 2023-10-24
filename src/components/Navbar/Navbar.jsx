@@ -10,7 +10,7 @@ const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li>
-            <a href="#skills-grid">Skills</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li>
             <a href="#Resume">Resume</a>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <a href="#Contact">Contact</a>
           </li>
           <li>
-            <a href="#projects-grid">Projects</a>
+            <a href="#Projects">Projects</a>
           </li>
         </ul>
       </header>

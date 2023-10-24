@@ -8,16 +8,16 @@
 .tech-icons {
   margin-top: 1rem;
   display: flex;
-  gap: 10px;  /* Creates space between the icons */
+  gap: 10px; 
 }
 
-/* Updated style for SVG icons */
+
 .svg-icon {
-  width: 40px;  /* Adjust as needed */
-  height: 40px;  /* Adjust as needed */
+  width: 40px;  
+  height: 40px; 
 }
 
-/* Legacy FontAwesome icon style, can be removed if not in use */
+/* Legacy FontAwesome icon style*/
 .tech-icons .svg-inline--fa {
   font-size: 20px;
   color: #333;

@@ -44,7 +44,7 @@ const Resume = () => {
         <h5>
           <em>Insurance Producer</em>
         </h5>
-        <p>
+        <div>
           <ul>
             <li>
               Obtained licensure to sell property, casualty, and health
@@ -59,7 +59,7 @@ const Resume = () => {
               materials.
             </li>
           </ul>
-        </p>
+        </div>
         <h3>Hufton Hybrid Roofing and Restoration</h3>
 
         <h5>

@@ -58,7 +58,7 @@ const projectsData = [
 
 const Project = () => {
   return (
-    <div>
+    <div id="Projects">
       <h2>Projects</h2>
       <div className="auto-grid-medium">
         {projectsData.map((project, index) => (
