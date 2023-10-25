@@ -1,25 +1,25 @@
 import React, { useEffect } from 'react'
 
-const Resume = () => {
+const Resume = ({ enableAutoScroll }) => {
   useEffect(() => {
-    // Scroll to resume section when the "Resume" link is clicked in the navbar
-    const scrollToResume = () => {
-      const resumeSection = document.getElementById('Resume')
-      if (resumeSection) {
-        const scrollDistance = resumeSection.offsetTop
-        console.log('Scrolling to resume:', scrollDistance) // Add this line
-        window.scrollTo({
-          top: scrollDistance,
-          behavior: 'smooth'
-        })
+    if (enableAutoScroll) {
+      const scrollToResume = () => {
+        const resumeSection = document.getElementById('Resume')
+        if (resumeSection) {
+          const scrollDistance = resumeSection.offsetTop
+          window.scrollTo({
+            top: scrollDistance,
+            behavior: 'smooth'
+          })
+        }
+      }
+
+      const resumeLink = document.querySelector('a[href="#Resume"]')
+      if (resumeLink) {
+        resumeLink.addEventListener('click', scrollToResume)
       }
     }
-
-    const resumeLink = document.querySelector('a[href="#Resume"]')
-    if (resumeLink) {
-      resumeLink.addEventListener('click', scrollToResume)
-    }
-  }, [])
+  }, [enableAutoScroll])
 
   return (
     <div id="Resume" className="intro">
@@ -61,7 +61,6 @@ const Resume = () => {
           </ul>
         </div>
         <h3>Hufton Hybrid Roofing and Restoration</h3>
-
         <h5>
           <em>Owner</em>
         </h5>
@@ -74,7 +73,6 @@ const Resume = () => {
           compared replacement estimates using Xactimate.
         </p>
         <h3>Southern Roofing and Restoration</h3>
-
         <h5>
           <em>Project Manager</em>
         </h5>
@@ -89,7 +87,6 @@ const Resume = () => {
           physical measurements.
         </p>
         <h3>My Town Maintenance Roofing and Restoration</h3>
-
         <h5>
           <em>Project Manager</em>
         </h5>
@@ -102,7 +99,6 @@ const Resume = () => {
           to use Xactimate and other estimating software such as eagle view.
         </p>
         <h3>State Farm Insurance Company</h3>
-
         <h5>
           <em>Insurance Producer</em>
         </h5>
