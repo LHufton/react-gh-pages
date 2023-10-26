@@ -16,9 +16,7 @@ const About = () => {
         I am a divergent thinker with a passion for mental health and wellness
         applications. I enjoy solving problems that provide a positive impact.
       </p>
-      <span id="to-top" onClick={scrollToTop}>
-        <i className="fa fa-chevron-up" aria-hidden="true"></i>
-      </span>
+    
     </div>
   )
 }
