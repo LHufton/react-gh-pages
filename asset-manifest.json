@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.a6dc347a.css",
-    "main.js": "/react-gh-pages/static/js/main.6811c474.js",
+    "main.js": "/react-gh-pages/static/js/main.fec99b39.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
+    "static/media/SYT.png": "/react-gh-pages/static/media/SYT.ff769dce0af556a6aecb.png",
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "static/media/SQL.svg": "/react-gh-pages/static/media/SQL.faf9645db7accb5d88a409189ad0a7d8.svg",
     "static/media/Mongodb.svg": "/react-gh-pages/static/media/Mongodb.71878b738f870a417c999759fb2368a8.svg",
@@ -19,8 +20,8 @@
     "static/media/GitHub.svg": "/react-gh-pages/static/media/GitHub.e0d7d7254ac0545743fc7af09c1e977b.svg",
     "static/media/Python.svg": "/react-gh-pages/static/media/Python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/Miro.svg": "/react-gh-pages/static/media/Miro.c39a9c29249c37870bb49d9b786c5c82.svg",
-    "static/media/Bootstrap.svg": "/react-gh-pages/static/media/Bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "index.html": "/react-gh-pages/index.html",
+    "static/media/Bootstrap.svg": "/react-gh-pages/static/media/Bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/Javascript.svg": "/react-gh-pages/static/media/Javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "static/media/Sublime.svg": "/react-gh-pages/static/media/Sublime.4ed1225a5a52a32de0cec8649a36dc95.svg",
     "static/media/Git.svg": "/react-gh-pages/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
@@ -33,10 +34,10 @@
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.a6dc347a.css.map": "/react-gh-pages/static/css/main.a6dc347a.css.map",
-    "main.6811c474.js.map": "/react-gh-pages/static/js/main.6811c474.js.map"
+    "main.fec99b39.js.map": "/react-gh-pages/static/js/main.fec99b39.js.map"
   },
   "entrypoints": [
     "static/css/main.a6dc347a.css",
-    "static/js/main.6811c474.js"
+    "static/js/main.fec99b39.js"
   ]
 }
