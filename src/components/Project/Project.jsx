@@ -11,7 +11,8 @@ import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
 import GitHub from '../../assets/GitHub.svg'
 import FlyIO from '../../assets/FlyIO.svg'
-
+import SYT from '../../images/SYT.png'
+import Mongodb from '../../assets/Mongodb.svg'
 const projectsData = [
   {
     title: 'Simon',
@@ -48,6 +49,22 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' }
+    ],
+    link: 'https://unit1ttt-app.surge.sh/',
+    gitHubLink: 'https://github.com/LHufton/TicTacToe',
+    deployIcon: Surge
+  },
+  {
+    title: 'Share Your Thoughts',
+    img: SYT,
+    description:
+      'A MERN Stack social media app that encourages journaling and free-writing.',
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Mongodb, label: 'MongoDB', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
