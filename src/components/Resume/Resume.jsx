@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import './Resume.css'
+import LHuftonResumé from '../../images/LHuftonResumé.pdf'
 
 const Resume = ({ enableAutoScroll }) => {
   useEffect(() => {
@@ -25,7 +27,7 @@ const Resume = ({ enableAutoScroll }) => {
     <div id="Resume" className="intro">
       <h1>Resumé</h1>
       <a
-        href="/images/LHuftonResumé.pdf"
+        href="./images/LHuftonResumé.pdf"
         download="LHuftonResumé.pdf"
         className="download-resume"
       >
