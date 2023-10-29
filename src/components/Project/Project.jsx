@@ -13,6 +13,8 @@ import GitHub from '../../assets/GitHub.svg'
 import FlyIO from '../../assets/FlyIO.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
+import GhPage from '../../assets/GhPage.svg'
+
 const projectsData = [
   {
     title: 'Simon',
@@ -24,8 +26,9 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon'
-    // deployIcon: Surge
+    gitHubLink: 'https://github.com/LHufton/Simon',
+    deployIcon: GhPage,
+    gitHubIcon: GitHub
   },
   {
     title: 'Unpopular Opinions',
@@ -38,9 +41,10 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
-    link: 'https://lhufton.github.io/UnpopularOpinions',
+    link: 'https://unpopular-opinions-scifi.fly.dev/',
     gitHubLink: 'https://github.com/LHufton/UnpopularOpinions',
-    deployIcon: FlyIO
+    deployIcon: FlyIO,
+    gitHubIcon: GitHub
   },
   {
     title: 'Tic Tac Toe',
@@ -53,7 +57,8 @@ const projectsData = [
     ],
     link: 'https://unit1ttt-app.surge.sh/',
     gitHubLink: 'https://github.com/LHufton/TicTacToe',
-    deployIcon: Surge
+    deployIcon: Surge,
+    gitHubIcon: GitHub
   },
   {
     title: 'Share Your Thoughts',
@@ -69,14 +74,15 @@ const projectsData = [
     ],
     link: 'https://unit1ttt-app.surge.sh/',
     gitHubLink: 'https://github.com/LHufton/TicTacToe',
-    deployIcon: Surge
+    deployIcon: Surge,
+    gitHubIcon: GitHub
   }
 ]
 
 const Project = () => {
   return (
     <div id="Projects">
-      <h2>What I can do.</h2>
+      <h2>Projects</h2>
       <div className="auto-grid-medium">
         {projectsData.map((project, index) => (
           <div
@@ -93,7 +99,7 @@ const Project = () => {
                   className="svg-icon"
                 />
               </a>
-              {' | '}
+              {'  '}
               <a
                 href={project.gitHubLink}
                 target="_blank"

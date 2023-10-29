@@ -1,4 +1,6 @@
+// App.jsx
 import React, { useEffect } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import Lead from './components/Lead/Lead'
 import Nav from './components/Navbar/Navbar'
 import About from './components/About/About'
@@ -24,25 +26,20 @@ const App = () => {
   }, [])
 
   return (
-    <React.StrictMode>
-      <Nav />
-
-      <main style={{ padding: '0 3rem' }}>
-        <Lead />
-
-        <About />
-
-        <Skills />
-
-        <Project />
-
-        <Resume />
-
-        <Contact />
-      </main>
-
-      <Footer />
-    </React.StrictMode>
+    <Router>
+      <React.StrictMode>
+        <Nav />
+        <main style={{ padding: '0 3rem' }}>
+          <Lead />
+          <About />
+          <Skills />
+          <Project />
+          <Resume />
+          <Contact />
+        </main>
+        <Footer />
+      </React.StrictMode>
+    </Router>
   )
 }
 
