@@ -1,6 +1,7 @@
 import React from 'react'
 import './Skills.css'
 import Javascript from '../../assets/Javascript.svg'
+import GH from '../../assets/GH.svg'
 import Python from '../../assets/Python.svg'
 import Java from '../../assets/Java.svg'
 import ReactSVG from '../../assets/React.svg'
@@ -48,6 +49,7 @@ const categories = {
   ],
   'Version Control & Planning': [
     { label: 'Git', icon: Git },
+    { label: 'GitHub', icon: GH },
     { label: 'Miro', icon: Miro }
   ],
   'Code editors': [

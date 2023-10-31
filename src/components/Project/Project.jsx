@@ -1,6 +1,7 @@
 import React from 'react'
 import './Project.css'
 import Simon from '../../images/Simon.png'
+import GH from '../../assets/GH.svg'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 import UnpopularOpinions from '../../images/UnpopularOpinions.png'
 import Django from '../../assets/Django.svg'
@@ -23,6 +24,7 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: GH, label: 'GH', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
@@ -37,6 +39,7 @@ const projectsData = [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: GitHub, label: 'GitHub', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: FlyIO1, label: 'FlyIO1', type: 'svg' }
     ],
