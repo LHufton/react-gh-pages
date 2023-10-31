@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.6182c877.css",
-    "main.js": "/react-gh-pages/static/js/main.b665c11d.js",
+    "main.js": "/react-gh-pages/static/js/main.80e273cd.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -24,6 +24,7 @@
     "index.html": "/react-gh-pages/index.html",
     "static/media/Bootstrap.svg": "/react-gh-pages/static/media/Bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/Javascript.svg": "/react-gh-pages/static/media/Javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/GH.svg": "/react-gh-pages/static/media/GH.74d13353bde36d2dde5b52360f829273.svg",
     "static/media/Sublime.svg": "/react-gh-pages/static/media/Sublime.4ed1225a5a52a32de0cec8649a36dc95.svg",
     "static/media/Git.svg": "/react-gh-pages/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/Tailwind.svg": "/react-gh-pages/static/media/Tailwind.315d0ac2a2708d5f06972906113dfbf1.svg",
@@ -35,10 +36,10 @@
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.6182c877.css.map": "/react-gh-pages/static/css/main.6182c877.css.map",
-    "main.b665c11d.js.map": "/react-gh-pages/static/js/main.b665c11d.js.map"
+    "main.80e273cd.js.map": "/react-gh-pages/static/js/main.80e273cd.js.map"
   },
   "entrypoints": [
     "static/css/main.6182c877.css",
-    "static/js/main.b665c11d.js"
+    "static/js/main.80e273cd.js"
   ]
 }
