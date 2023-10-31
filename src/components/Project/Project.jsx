@@ -10,10 +10,10 @@ import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
 import GitHub from '../../assets/GitHub.svg'
-import FlyIO from '../../assets/FlyIO.svg'
+import FlyIO1 from '../../assets/FlyIO1.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
-import GhPage from '../../assets/GhPage.svg'
+import Heroku from '../../assets/Heroku.svg'
 
 const projectsData = [
   {
@@ -26,9 +26,7 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon',
-    deployIcon: GhPage,
-    gitHubIcon: GitHub
+    gitHubLink: 'https://github.com/LHufton/Simon'
   },
   {
     title: 'Unpopular Opinions',
@@ -39,12 +37,11 @@ const projectsData = [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' }
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: FlyIO1, label: 'FlyIO1', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
-    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions',
-    deployIcon: FlyIO,
-    gitHubIcon: GitHub
+    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions'
   },
   {
     title: 'Tic Tac Toe',
@@ -53,12 +50,11 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' }
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
-    gitHubLink: 'https://github.com/LHufton/TicTacToe',
-    deployIcon: Surge,
-    gitHubIcon: GitHub
+    gitHubLink: 'https://github.com/LHufton/TicTacToe'
   },
   {
     title: 'Share Your Thoughts',
@@ -69,13 +65,11 @@ const projectsData = [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
-      { icon: Mongodb, label: 'MongoDB', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' }
+      { icon: Heroku, label: 'Heroku', type: 'svg' },
+      { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
-    link: 'https://unit1ttt-app.surge.sh/',
-    gitHubLink: 'https://github.com/LHufton/TicTacToe',
-    deployIcon: Surge,
-    gitHubIcon: GitHub
+    link: 'https://shareyourthoughts.fly.dev/',
+    gitHubLink: 'https://github.com/LHufton/ShareYourThoughts'
   }
 ]
 
@@ -93,11 +87,7 @@ const Project = () => {
           >
             <div className="project-links">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={project.deployIcon}
-                  alt="Launched Project"
-                  className="svg-icon"
-                />
+                {' '}
               </a>
               {'  '}
               <a

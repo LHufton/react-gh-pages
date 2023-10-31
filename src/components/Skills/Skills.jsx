@@ -12,6 +12,7 @@ import SQL from '../../assets/SQL.svg'
 import Django from '../../assets/Django.svg'
 import Fastapi from '../../assets/Fastapi.svg'
 import Mysql from '../../assets/Mysql.svg'
+import FlyIO1 from '../../assets/FlyIO1.svg'
 import Postgresql from '../../assets/Postgresql.svg'
 import Mongodb from '../../assets/Mongodb.svg'
 import Bootstrap from '../../assets/Bootstrap.svg'
@@ -21,7 +22,6 @@ import Git from '../../assets/Git.svg'
 import Heroku from '../../assets/Heroku.svg'
 import Surge from '../../assets/Surge.svg'
 import Miro from '../../assets/Miro.svg'
-import FlyIO from '../../assets/FlyIO.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -43,7 +43,7 @@ const categories = {
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'Heroku', icon: Heroku },
     { label: 'Surge', icon: Surge },
-    { label: 'Fly.io', icon: FlyIO },
+    { label: 'Fly.io', icon: FlyIO1 },
     { label: 'MongoDB', icon: Mongodb }
   ],
   'Version Control & Planning': [
