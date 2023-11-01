@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
 import Simon from '../../images/Simon.png'
-import GH from '../../assets/GH.svg'
+// import GH from '../../assets/GH.svg'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 import UnpopularOpinions from '../../images/UnpopularOpinions.png'
 import Django from '../../assets/Django.svg'
@@ -10,6 +10,7 @@ import Python from '../../assets/Python.svg'
 import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
+import Git from '../../assets/Git.svg'
 import GitHub from '../../assets/GitHub.svg'
 import FlyIO1 from '../../assets/FlyIO1.svg'
 import SYT from '../../images/SYT.png'
@@ -24,7 +25,7 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: GH, label: 'GH', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
@@ -39,7 +40,7 @@ const projectsData = [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: GitHub, label: 'GitHub', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: FlyIO1, label: 'FlyIO1', type: 'svg' }
     ],
@@ -54,6 +55,7 @@ const projectsData = [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
@@ -69,9 +71,10 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Heroku, label: 'Heroku', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
-    link: 'https://shareyourthoughts.fly.dev/',
+    link: 'https://lhufton.github.io/Simon/gamePage.html',
     gitHubLink: 'https://github.com/LHufton/ShareYourThoughts'
   }
 ]

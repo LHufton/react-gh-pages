@@ -14,6 +14,15 @@
   font-weight: bold;
   margin-bottom: 5px;
 }
+.contact-heading {
+  font-size: 44px;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
 /* Styling for input fields */
 input[type="text"],
@@ -32,5 +41,15 @@ textarea {
 .ValidationError {
   color: red;
   font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #ccc;
+  cursor: pointer;
 }
 
