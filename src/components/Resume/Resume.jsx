@@ -31,8 +31,7 @@ const Resume = ({ enableAutoScroll }) => {
         download="LHuftonResume.pdf"
         className="download-resume"
       >
-        Download Resumé
-        <button className="Resume-btn"></button>
+        <button className="Resume-btn">Download Resumé</button>
       </a>
       <p>
         Experienced Full Stack Software Developer with expertise in a wide range

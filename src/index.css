@@ -282,12 +282,12 @@ input[type="submit"].secondary:hover {
   background: var(--grey-40);
 }
 
-button.dark,
+/* button.dark,
 input[type="submit"].dark,
 button.hollow,
 input[type="submit"].hollow {
   background: var(--dark);
-}
+} */
 
 button.dark:hover,
 input[type="submit"].dark:hover,
@@ -377,7 +377,7 @@ label.radio input:checked ~ .checkmark {
 /* Create the checkmark/indicator (hidden when not checked) */
 label.checkbox .checkmark:after {
   content: "";
-  position: absolute;
+  position: absolute; 
   display: none;
 }
 
