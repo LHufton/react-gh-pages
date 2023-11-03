@@ -58,7 +58,7 @@ const projectsData = [
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
-    gitHubLink: 'https://github.com/LHufton/TicTacToe'
+    gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe'
   },
   {
     title: 'Share Your Thoughts',
