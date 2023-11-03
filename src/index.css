@@ -387,7 +387,7 @@ label.radio input:checked ~ .checkmark {
 /* Show the checkmark when checked */
 /* label.checkbox input:checked ~ .checkmark:after {
   display: block;
-} */ */ */
+} */ 
 
 /* Style the checkmark/indicator */
 /* label.checkbox .checkmark:after {
