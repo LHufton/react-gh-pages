@@ -13,7 +13,7 @@ import SQL from '../../assets/SQL.svg'
 import Django from '../../assets/Django.svg'
 import Fastapi from '../../assets/Fastapi.svg'
 import Mysql from '../../assets/Mysql.svg'
-import FlyIO1 from '../../assets/FlyIO1.svg'
+import FlyIO from '../../assets/FlyIO.svg'
 import Postgresql from '../../assets/Postgresql.svg'
 import Mongodb from '../../assets/Mongodb.svg'
 import Bootstrap from '../../assets/Bootstrap.svg'
@@ -44,7 +44,7 @@ const categories = {
     { label: 'PostgreSQL', icon: Postgresql },
     { label: 'Heroku', icon: Heroku },
     { label: 'Surge', icon: Surge },
-    { label: 'Fly.io', icon: FlyIO1 },
+    { label: 'Fly.io', icon: FlyIO },
     { label: 'MongoDB', icon: Mongodb }
   ],
   'Version Control & Planning': [

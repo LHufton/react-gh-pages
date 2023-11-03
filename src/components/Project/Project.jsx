@@ -10,7 +10,7 @@ import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
 import Git from '../../assets/Git.svg'
-import FlyIO1 from '../../assets/FlyIO1.svg'
+import FlyIO from '../../assets/FlyIO.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
@@ -28,7 +28,8 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon'
+    gitHubLink: 'https://github.com/LHufton/Simon',
+    linkIcon: Surge
   },
   {
     title: 'Unpopular Opinions',
@@ -41,7 +42,7 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
-      { icon: FlyIO1, label: 'FlyIO1', type: 'svg' }
+      { icon: FlyIO, label: 'FlyIO', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
     gitHubLink: 'https://github.com/LHufton/unpopular-opinion'
