@@ -1,7 +1,6 @@
 import React from 'react'
 import './Project.css'
 import Simon from '../../images/Simon.png'
-// import GH from '../../assets/GH.svg'
 import TicTacToe from '../../images/Tic Tac Toe.png'
 import UnpopularOpinions from '../../images/UnpopularOpinions.png'
 import Django from '../../assets/Django.svg'
@@ -11,11 +10,12 @@ import CSS from '../../assets/CSS.svg'
 import HTML from '../../assets/HTML.svg'
 import Surge from '../../assets/Surge.svg'
 import Git from '../../assets/Git.svg'
-import GitHub from '../../assets/GitHub.svg'
 import FlyIO1 from '../../assets/FlyIO1.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const projectsData = [
   {
@@ -74,7 +74,7 @@ const projectsData = [
       { icon: Git, label: 'Git', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
-    link: 'https://lhufton.github.io/Simon/gamePage.html',
+    link: 'https://syt-frontend-1-687106a3c54f.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/ShareYourThoughts'
   }
 ]
@@ -101,7 +101,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={GitHub} alt="GitHub" className="svg-icon" />
+                <FontAwesomeIcon icon={faGithub} className="github-icon" />
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
