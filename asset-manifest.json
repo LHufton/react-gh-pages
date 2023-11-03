@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.6182c877.css",
-    "main.js": "/react-gh-pages/static/js/main.f4c93bf8.js",
+    "main.css": "/react-gh-pages/static/css/main.0583db29.css",
+    "main.js": "/react-gh-pages/static/js/main.ad156cfb.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -10,7 +10,7 @@
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "static/media/SQL.svg": "/react-gh-pages/static/media/SQL.faf9645db7accb5d88a409189ad0a7d8.svg",
     "static/media/Mongodb.svg": "/react-gh-pages/static/media/Mongodb.71878b738f870a417c999759fb2368a8.svg",
-    "static/media/FlyIO1.svg": "/react-gh-pages/static/media/FlyIO1.6e6792db7c61cce52310eac1b31d25fd.svg",
+    "static/media/FlyIO.svg": "/react-gh-pages/static/media/FlyIO.6e6792db7c61cce52310eac1b31d25fd.svg",
     "static/media/Surge.svg": "/react-gh-pages/static/media/Surge.cff583e86d844299ff3fee42fe92ac68.svg",
     "static/media/NodeJs.svg": "/react-gh-pages/static/media/NodeJs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/Postgresql.svg": "/react-gh-pages/static/media/Postgresql.ae92b576b8ea41666538c0756df27969.svg",
@@ -18,13 +18,13 @@
     "static/media/Django.svg": "/react-gh-pages/static/media/Django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/Java.svg": "/react-gh-pages/static/media/Java.a351f739f47fda7a637b86ffa530d56a.svg",
     "static/media/React.svg": "/react-gh-pages/static/media/React.e68b35f4774979ae220b1d5d7b345b00.svg",
-    "static/media/GitHub.svg": "/react-gh-pages/static/media/GitHub.e0d7d7254ac0545743fc7af09c1e977b.svg",
     "static/media/Python.svg": "/react-gh-pages/static/media/Python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/Miro.svg": "/react-gh-pages/static/media/Miro.c39a9c29249c37870bb49d9b786c5c82.svg",
     "index.html": "/react-gh-pages/index.html",
     "static/media/Bootstrap.svg": "/react-gh-pages/static/media/Bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/Javascript.svg": "/react-gh-pages/static/media/Javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "static/media/GH.svg": "/react-gh-pages/static/media/GH.74d13353bde36d2dde5b52360f829273.svg",
+    "static/media/github-mark.svg": "/react-gh-pages/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "static/media/Sublime.svg": "/react-gh-pages/static/media/Sublime.4ed1225a5a52a32de0cec8649a36dc95.svg",
     "static/media/Git.svg": "/react-gh-pages/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/Tailwind.svg": "/react-gh-pages/static/media/Tailwind.315d0ac2a2708d5f06972906113dfbf1.svg",
@@ -35,11 +35,11 @@
     "static/media/Heroku.svg": "/react-gh-pages/static/media/Heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.6182c877.css.map": "/react-gh-pages/static/css/main.6182c877.css.map",
-    "main.f4c93bf8.js.map": "/react-gh-pages/static/js/main.f4c93bf8.js.map"
+    "main.0583db29.css.map": "/react-gh-pages/static/css/main.0583db29.css.map",
+    "main.ad156cfb.js.map": "/react-gh-pages/static/js/main.ad156cfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6182c877.css",
-    "static/js/main.f4c93bf8.js"
+    "static/css/main.0583db29.css",
+    "static/js/main.ad156cfb.js"
   ]
 }
