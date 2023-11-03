@@ -14,8 +14,7 @@ import FlyIO1 from '../../assets/FlyIO1.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import GitHub from '../../assets/github-mark.svg'
 
 const projectsData = [
   {
@@ -101,7 +100,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} className="github-icon" />
+                <img src={GitHub} alt="GitHub" className="github-icon" />
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
