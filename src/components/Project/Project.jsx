@@ -44,7 +44,7 @@ const projectsData = [
       { icon: FlyIO1, label: 'FlyIO1', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
-    gitHubLink: 'https://github.com/LHufton/UnpopularOpinions'
+    gitHubLink: 'https://github.com/LHufton/unpopular-opinion'
   },
   {
     title: 'Tic Tac Toe',
