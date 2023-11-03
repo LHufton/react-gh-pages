@@ -45,7 +45,8 @@ const projectsData = [
       { icon: FlyIO, label: 'FlyIO', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
-    gitHubLink: 'https://github.com/LHufton/unpopular-opinion'
+    gitHubLink: 'https://github.com/LHufton/unpopular-opinion',
+    linkIcon: FlyIO
   },
   {
     title: 'Tic Tac Toe',
@@ -59,7 +60,8 @@ const projectsData = [
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
-    gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe'
+    gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe',
+    linkIcon: Surge
   },
   {
     title: 'Share Your Thoughts',
@@ -75,7 +77,8 @@ const projectsData = [
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
     link: 'https://syt-frontend-1-687106a3c54f.herokuapp.com/',
-    gitHubLink: 'https://github.com/LHufton/ShareYourThoughts'
+    gitHubLink: 'https://github.com/LHufton/ShareYourThoughts',
+    linkIcon: Heroku
   }
 ]
 
