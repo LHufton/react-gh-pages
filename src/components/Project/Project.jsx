@@ -28,8 +28,7 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
-    gitHubLink: 'https://github.com/LHufton/Simon',
-    linkIcon: Surge
+    gitHubLink: 'https://github.com/LHufton/Simon'
   },
   {
     title: 'Unpopular Opinions',
@@ -45,8 +44,7 @@ const projectsData = [
       { icon: FlyIO, label: 'FlyIO', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
-    gitHubLink: 'https://github.com/LHufton/unpopular-opinion',
-    linkIcon: FlyIO
+    gitHubLink: 'https://github.com/LHufton/unpopular-opinion'
   },
   {
     title: 'Tic Tac Toe',
@@ -60,8 +58,7 @@ const projectsData = [
       { icon: Surge, label: 'Surge', type: 'svg' }
     ],
     link: 'https://unit1ttt-app.surge.sh/',
-    gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe',
-    linkIcon: Surge
+    gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe'
   },
   {
     title: 'Share Your Thoughts',
@@ -105,6 +102,13 @@ const Project = () => {
                 rel="noopener noreferrer"
               >
                 <img src={GitHub} alt="GitHub" className="github-icon" />
+              </a>
+              <a
+                href={project.gitHubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={project.link} alt="deploy" className="deploy-icon" />
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
