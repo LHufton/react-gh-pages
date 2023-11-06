@@ -103,13 +103,6 @@ const Project = () => {
               >
                 <img src={GitHub} alt="GitHub" className="github-icon" />
               </a>
-              <a
-                href={project.gitHubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={project.link} alt="deploy" className="deploy-icon" />
-              </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
