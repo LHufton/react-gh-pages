@@ -24,6 +24,9 @@ import Heroku from '../../assets/Heroku.svg'
 import Surge from '../../assets/Surge.svg'
 import Miro from '../../assets/Miro.svg'
 import Trello from '../../assets/Trello.svg'
+import AWS from '../../assets/AWS.svg'
+import Azure from '../../assets/Azure.svg'
+import googleCloud from '../../assets/googleCloud.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -57,6 +60,11 @@ const categories = {
   'Code editors': [
     { label: 'Sublime', icon: Sublime },
     { label: 'Visual Studio Code', icon: VSC }
+  ],
+  'Cloud Services': [
+    { label: 'AWS', icon: AWS },
+    { label: 'Azure', icon: Azure },
+    { label: 'Google Cloud', icon: googleCloud }
   ]
 }
 
