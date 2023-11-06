@@ -14,7 +14,7 @@ import FlyIO from '../../assets/FlyIO.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
-import GitHub from '../../assets/github-mark.svg'
+import GH from '../../assets/GH.svg'
 
 const projectsData = [
   {
@@ -64,7 +64,7 @@ const projectsData = [
     title: 'Share Your Thoughts',
     img: SYT,
     description:
-      'A MERN Stack social media app that encourages journaling and free-writing.',
+      'A MERN social media clone that encourages journaling and free-writing.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -101,7 +101,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={GitHub} alt="GitHub" className="github-icon" />
+                <img src={GH} alt="GitHub" className="github-icon" />
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
