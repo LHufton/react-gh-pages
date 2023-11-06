@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.b48e7295.css",
-    "main.js": "/react-gh-pages/static/js/main.82c14a75.js",
+    "main.js": "/react-gh-pages/static/js/main.b5271bfb.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -17,7 +17,9 @@
     "static/media/Mysql.svg": "/react-gh-pages/static/media/Mysql.f586030ae346497d3d321e6203efeead.svg",
     "static/media/Django.svg": "/react-gh-pages/static/media/Django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/Java.svg": "/react-gh-pages/static/media/Java.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/AWS.svg": "/react-gh-pages/static/media/AWS.1baaa078f947505c36dc8ee7595f91da.svg",
     "static/media/React.svg": "/react-gh-pages/static/media/React.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/googleCloud.svg": "/react-gh-pages/static/media/googleCloud.e929444adcd04c02cd95f8e693a92db4.svg",
     "static/media/Python.svg": "/react-gh-pages/static/media/Python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/Miro.svg": "/react-gh-pages/static/media/Miro.c39a9c29249c37870bb49d9b786c5c82.svg",
     "index.html": "/react-gh-pages/index.html",
@@ -35,11 +37,12 @@
     "static/media/Heroku.svg": "/react-gh-pages/static/media/Heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
+    "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
     "main.b48e7295.css.map": "/react-gh-pages/static/css/main.b48e7295.css.map",
-    "main.82c14a75.js.map": "/react-gh-pages/static/js/main.82c14a75.js.map"
+    "main.b5271bfb.js.map": "/react-gh-pages/static/js/main.b5271bfb.js.map"
   },
   "entrypoints": [
     "static/css/main.b48e7295.css",
-    "static/js/main.82c14a75.js"
+    "static/js/main.b5271bfb.js"
   ]
 }
