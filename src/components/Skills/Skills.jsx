@@ -23,6 +23,7 @@ import Git from '../../assets/Git.svg'
 import Heroku from '../../assets/Heroku.svg'
 import Surge from '../../assets/Surge.svg'
 import Miro from '../../assets/Miro.svg'
+import Trello from '../../assets/Trello.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -50,7 +51,8 @@ const categories = {
   'Version Control & Planning': [
     { label: 'Git', icon: Git },
     { label: 'GitHub', icon: GH },
-    { label: 'Miro', icon: Miro }
+    { label: 'Miro', icon: Miro },
+    { label: 'Trello', icon: Trello }
   ],
   'Code editors': [
     { label: 'Sublime', icon: Sublime },
