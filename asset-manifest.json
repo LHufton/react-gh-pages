@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.b48e7295.css",
-    "main.js": "/react-gh-pages/static/js/main.f1345254.js",
+    "main.js": "/react-gh-pages/static/js/main.8cb49e86.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -24,7 +24,6 @@
     "static/media/Bootstrap.svg": "/react-gh-pages/static/media/Bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/Javascript.svg": "/react-gh-pages/static/media/Javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "static/media/GH.svg": "/react-gh-pages/static/media/GH.74d13353bde36d2dde5b52360f829273.svg",
-    "static/media/github-mark.svg": "/react-gh-pages/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "static/media/Sublime.svg": "/react-gh-pages/static/media/Sublime.4ed1225a5a52a32de0cec8649a36dc95.svg",
     "static/media/Git.svg": "/react-gh-pages/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/Tailwind.svg": "/react-gh-pages/static/media/Tailwind.315d0ac2a2708d5f06972906113dfbf1.svg",
@@ -36,10 +35,10 @@
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.b48e7295.css.map": "/react-gh-pages/static/css/main.b48e7295.css.map",
-    "main.f1345254.js.map": "/react-gh-pages/static/js/main.f1345254.js.map"
+    "main.8cb49e86.js.map": "/react-gh-pages/static/js/main.8cb49e86.js.map"
   },
   "entrypoints": [
     "static/css/main.b48e7295.css",
-    "static/js/main.f1345254.js"
+    "static/js/main.8cb49e86.js"
   ]
 }
