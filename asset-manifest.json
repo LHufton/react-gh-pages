@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.bd851cc3.css",
-    "main.js": "/react-gh-pages/static/js/main.81f7ea58.js",
+    "main.css": "/react-gh-pages/static/css/main.b48e7295.css",
+    "main.js": "/react-gh-pages/static/js/main.f1345254.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -35,11 +35,11 @@
     "static/media/Heroku.svg": "/react-gh-pages/static/media/Heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.bd851cc3.css.map": "/react-gh-pages/static/css/main.bd851cc3.css.map",
-    "main.81f7ea58.js.map": "/react-gh-pages/static/js/main.81f7ea58.js.map"
+    "main.b48e7295.css.map": "/react-gh-pages/static/css/main.b48e7295.css.map",
+    "main.f1345254.js.map": "/react-gh-pages/static/js/main.f1345254.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd851cc3.css",
-    "static/js/main.81f7ea58.js"
+    "static/css/main.b48e7295.css",
+    "static/js/main.f1345254.js"
   ]
 }
