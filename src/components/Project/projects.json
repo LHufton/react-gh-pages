@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Simon",
+    "img": "Simon.png",
+    "description": "The classic Simon memory game",
+    "technologies": [
+      { "icon": "Javascript.svg", "label": "Javascript", "type": "svg" },
+      { "icon": "HTML.svg", "label": "HTML", "type": "svg" },
+      { "icon": "CSS.svg", "label": "CSS", "type": "svg" },
+      { "icon": "Git.svg", "label": "Git", "type": "svg" }
+    ],
+    "link": "https://lhufton.github.io/Simon/gamePage.html",
+    "gitHubLink": "https://github.com/LHufton/Simon"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "img": "TicTacToe.png",
+    "description": "A Tic Tac Toe game",
+    "technologies": [
+      { "icon": "Javascript.svg", "label": "Javascript", "type": "svg" },
+      { "icon": "HTML.svg", "label": "HTML", "type": "svg" },
+      { "icon": "CSS.svg", "label": "CSS", "type": "svg" },
+      { "icon": "Git.svg", "label": "Git", "type": "svg" }
+    ],
+    "link": "https://lhufton.github.io/TicTacToe/gamePage.html",
+    "gitHubLink": "https://github.com/LHufton/TicTacToe"
+  },
+  {
+    "title": "Weather App",
+    "img": "Construction.svg",
+    "description": "Weather forecast app",
+    "technologies": [
+      { "icon": "Javascript.svg", "label": "Javascript", "type": "svg" },
+      { "icon": "React.svg", "label": "React", "type": "svg" },
+      { "icon": "HTML.svg", "label": "HTML", "type": "svg" },
+      { "icon": "CSS.svg", "label": "CSS", "type": "svg" },
+      { "icon": "Git.svg", "label": "Git", "type": "svg" }
+    ],
+    "link": "https://lhweather-app-91a74b2446f3.herokuapp.com/",
+    "gitHubLink": "https://github.com/LHufton/weather-app"
+  },
+  {
+    "title": "Unpopular Opinions",
+    "img": "UnpopularOpinions",
+    "description": "A Tic Tac Toe game",
+    "technologies": [
+      { "icon": "Javascript.svg", "label": "Javascript", "type": "svg" },
+      { "icon": "HTML.svg", "label": "HTML", "type": "svg" },
+      { "icon": "CSS.svg", "label": "CSS", "type": "svg" },
+      { "icon": "Git.svg", "label": "Git", "type": "svg" }
+    ],
+    "link": "https://lhufton.github.io/TicTacToe/gamePage.html",
+    "gitHubLink": "https://github.com/LHufton/TicTacToe"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "img": "TicTacToe.png",
+    "description": "A Tic Tac Toe game",
+    "technologies": [
+      { "icon": "Javascript.svg", "label": "Javascript", "type": "svg" },
+      { "icon": "HTML.svg", "label": "HTML", "type": "svg" },
+      { "icon": "CSS.svg", "label": "CSS", "type": "svg" },
+      { "icon": "Git.svg", "label": "Git", "type": "svg" }
+    ],
+    "link": "https://lhufton.github.io/TicTacToe/gamePage.html",
+    "gitHubLink": "https://github.com/LHufton/TicTacToe"
+  }
+]

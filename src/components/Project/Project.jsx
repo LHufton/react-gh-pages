@@ -15,6 +15,7 @@ import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
 import GH from '../../assets/GH.svg'
+import Construction from '../../assets/Construction.svg'
 
 const projectsData = [
   {
@@ -24,11 +25,24 @@ const projectsData = [
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: Git, label: 'Git', type: 'svg' },
-      { icon: CSS, label: 'CSS', type: 'svg' }
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' }
     ],
     link: 'https://lhufton.github.io/Simon/gamePage.html',
     gitHubLink: 'https://github.com/LHufton/Simon'
+  },
+  {
+    title: 'lhWeather-app',
+    img: Construction,
+    description: 'Daily weather forecast for your location. Coming soon!',
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' }
+    ],
+    link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',
+    gitHubLink: 'https://github.com/LHufton/weather-app'
   },
   {
     title: 'Unpopular Opinions',
@@ -39,8 +53,8 @@ const projectsData = [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
-      { icon: Git, label: 'Git', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
       { icon: FlyIO, label: 'FlyIO', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
