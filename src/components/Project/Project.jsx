@@ -32,7 +32,7 @@ const projectsData = [
     gitHubLink: 'https://github.com/LHufton/Simon'
   },
   {
-    title: 'lhWeather-app',
+    title: 'Whatever the Weather',
     img: Construction,
     description: 'Daily weather forecast for your location. Coming soon!',
     technologies: [
