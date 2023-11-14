@@ -16,7 +16,7 @@ import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
 import GH from '../../assets/GH.svg'
 import Construction from '../../assets/Construction.svg'
-
+import ReactIcon from '../../assets/React.svg'
 const projectsData = [
   {
     title: 'Simon',
@@ -39,6 +39,7 @@ const projectsData = [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' }
     ],
     link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',
@@ -85,6 +86,7 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Heroku, label: 'Heroku', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' },
+      { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
     link: 'https://syt-frontend-1-687106a3c54f.herokuapp.com/',
