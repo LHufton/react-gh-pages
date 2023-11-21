@@ -34,9 +34,10 @@ const Resume = ({ enableAutoScroll }) => {
         <button className="Resume-btn">Download Resumé</button>
       </a>
       <p>
-        Experienced Full Stack Software Developer with expertise in a wide range
-        of technologies. Passionate about creating applications that enable
-        people to live healthier lives with a focus on mental health.
+        Passionate fullstack problem solver, committed to building and
+        maintaining applications using the latest technologies. I am an
+        innovative thinker who believes in utilizing A.I. and machine learning
+        to solve real world problems.
       </p>
 
       <div className="experience">

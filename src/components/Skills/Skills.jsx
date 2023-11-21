@@ -28,6 +28,7 @@ import AWS from '../../assets/AWS.svg'
 import Azure from '../../assets/Azure.svg'
 import googleCloud from '../../assets/googleCloud.svg'
 import Express from '../../assets/Express.svg'
+import GPT from '../../assets/GPT.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -51,6 +52,7 @@ const categories = {
     { label: 'Heroku', icon: Heroku },
     { label: 'Surge', icon: Surge },
     { label: 'Fly.io', icon: FlyIO },
+    { label: 'GPT', icon: GPT },
     { label: 'MongoDB', icon: Mongodb }
   ],
   'Version Control & Planning': [
