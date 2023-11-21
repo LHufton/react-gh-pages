@@ -16,7 +16,9 @@ import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
 import GH from '../../assets/GH.svg'
 import Construction from '../../assets/Construction.svg'
+import Mind from '../../images/Mind-project.png'
 import ReactIcon from '../../assets/React.svg'
+import Express from '../../assets/Express.svg'
 const projectsData = [
   {
     title: 'Simon',
@@ -44,6 +46,20 @@ const projectsData = [
     ],
     link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/weather-app'
+  },
+  {
+    title: 'Mind Project',
+    img: Mind,
+    description: 'Habit tracker with a mindfulness twist.',
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' },
+      { icon: Express, label: 'Express', type: 'svg' }
+    ],
+    link: 'https://mind-project-24983a2b9795.herokuapp.com/',
+    gitHubLink: 'https://github.com/LHufton/mind-project'
   },
   {
     title: 'Unpopular Opinions',
@@ -86,6 +102,7 @@ const projectsData = [
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Heroku, label: 'Heroku', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' },
+      { icon: Express, label: 'Express', type: 'svg' },
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
