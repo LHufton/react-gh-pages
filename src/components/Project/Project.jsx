@@ -42,6 +42,7 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
+      { icon: Express, label: 'Express', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' }
     ],
     link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',

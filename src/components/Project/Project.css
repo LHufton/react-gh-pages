@@ -21,3 +21,10 @@
   height: 40px;
   fill: #fff;
 }
+
+
+[class~=“project”] {
+  margin-bottom: 6rem; 
+  
+
+}

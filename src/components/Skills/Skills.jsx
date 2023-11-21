@@ -27,6 +27,7 @@ import Trello from '../../assets/Trello.svg'
 import AWS from '../../assets/AWS.svg'
 import Azure from '../../assets/Azure.svg'
 import googleCloud from '../../assets/googleCloud.svg'
+import Express from '../../assets/Express.svg'
 
 const categories = {
   'Languages, Libraries & Frameworks': [
@@ -39,6 +40,7 @@ const categories = {
     { label: 'Bootstrap', icon: Bootstrap },
     { label: 'Material-UI', icon: MaterialUI },
     { label: 'Tailwind CSS', icon: Tailwind },
+    { label: 'Express', icon: Express },
     { label: 'Node.js', icon: NodeJs }
   ],
   'DevOps & Backend': [
