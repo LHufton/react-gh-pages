@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.b48e7295.css",
-    "main.js": "/react-gh-pages/static/js/main.0bcc3780.js",
+    "main.js": "/react-gh-pages/static/js/main.be42b688.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
@@ -9,6 +9,7 @@
     "static/media/SYT.png": "/react-gh-pages/static/media/SYT.ff769dce0af556a6aecb.png",
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "static/media/SQL.svg": "/react-gh-pages/static/media/SQL.faf9645db7accb5d88a409189ad0a7d8.svg",
+    "static/media/Mind-project.png": "/react-gh-pages/static/media/Mind-project.5c2d883bb6af035a3e3e.png",
     "static/media/Mongodb.svg": "/react-gh-pages/static/media/Mongodb.71878b738f870a417c999759fb2368a8.svg",
     "static/media/FlyIO.svg": "/react-gh-pages/static/media/FlyIO.6e6792db7c61cce52310eac1b31d25fd.svg",
     "static/media/Surge.svg": "/react-gh-pages/static/media/Surge.cff583e86d844299ff3fee42fe92ac68.svg",
@@ -17,6 +18,7 @@
     "static/media/Mysql.svg": "/react-gh-pages/static/media/Mysql.f586030ae346497d3d321e6203efeead.svg",
     "static/media/Django.svg": "/react-gh-pages/static/media/Django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/Java.svg": "/react-gh-pages/static/media/Java.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/Express.svg": "/react-gh-pages/static/media/Express.ac44d1db1abbb60323e65b52d8bbbb84.svg",
     "static/media/AWS.svg": "/react-gh-pages/static/media/AWS.1baaa078f947505c36dc8ee7595f91da.svg",
     "static/media/React.svg": "/react-gh-pages/static/media/React.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/Construction.svg": "/react-gh-pages/static/media/Construction.ab60f44382c0ec973857edf3b3a5a7c5.svg",
@@ -40,10 +42,10 @@
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
     "main.b48e7295.css.map": "/react-gh-pages/static/css/main.b48e7295.css.map",
-    "main.0bcc3780.js.map": "/react-gh-pages/static/js/main.0bcc3780.js.map"
+    "main.be42b688.js.map": "/react-gh-pages/static/js/main.be42b688.js.map"
   },
   "entrypoints": [
     "static/css/main.b48e7295.css",
-    "static/js/main.0bcc3780.js"
+    "static/js/main.be42b688.js"
   ]
 }
