@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useEffect } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import Lead from './components/Lead/Lead'
+import Hero from './components/Hero/Hero'
 import Nav from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Project from './components/Project/Project'
@@ -30,7 +30,7 @@ const App = () => {
       <React.StrictMode>
         <Nav />
         <main style={{ padding: '0 3rem' }}>
-          <Lead />
+          <Hero />
           <About />
           <Skills />
           <Project />

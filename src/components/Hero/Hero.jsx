@@ -1,12 +1,12 @@
 import React from 'react'
-import './Lead.css'
+import './Hero.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import ProfilePic from '../../images/Profile.jpeg'
 
-const Lead = () => {
+const Hero = () => {
   return (
-    <div id="Lead" className="auto-grid-large">
+    <div id="Hero" className="auto-grid-large">
       <div className="about-text">
         <h2 className="heading">Luke Hufton</h2>
         <br />
@@ -38,4 +38,4 @@ const Lead = () => {
   )
 }
 
-export default Lead
+export default Hero

@@ -19,7 +19,7 @@
 .skill-item {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: var(--space-2);
   align-items: center;
   text-align: center;
 }

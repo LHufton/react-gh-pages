@@ -14,8 +14,9 @@ const About = () => {
     <div id="About">
       <h2>About me</h2>
       <p>
-        I am a divergent thinker with a passion for mental health and wellness
-        applications. I enjoy solving problems that provide a positive impact.
+        I am a results driven, self-motivated, and resourceful software
+        engineer. I enjoy solving problems and learning efficient ways to do so.
+        I am passionate about providing quality solutions.
       </p>
     </div>
   )

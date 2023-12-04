@@ -28,3 +28,10 @@
   
 
 }
+
+#projects {
+  background-color: #fff;
+  color: #000;
+  gap: var(--space-8)
+
+}
