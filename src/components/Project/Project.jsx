@@ -19,7 +19,7 @@ import Construction from '../../assets/Construction.svg'
 import Mind from '../../images/Mind-project.png'
 import ReactIcon from '../../assets/React.svg'
 import Express from '../../assets/Express.svg'
-const projectsData = [
+const projectsData  = [
   {
     title: 'Simon',
     img: Simon,
