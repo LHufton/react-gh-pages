@@ -15,11 +15,11 @@ import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
 import Heroku from '../../assets/Heroku.svg'
 import GH from '../../assets/GH.svg'
-import Construction from '../../assets/Construction.svg'
 import Mind from '../../images/Mind-project.png'
 import ReactIcon from '../../assets/React.svg'
 import Express from '../../assets/Express.svg'
-const projectsData  = [
+import LhWeather from '../../images/LhWeather-App.png'
+const projectsData = [
   {
     title: 'Simon',
     img: Simon,
@@ -35,14 +35,13 @@ const projectsData  = [
   },
   {
     title: 'Whatever the Weather',
-    img: Construction,
+    img: LhWeather,
     description: 'Daily weather forecast for your location. Coming soon!',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
-      { icon: Express, label: 'Express', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' }
     ],
     link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',
