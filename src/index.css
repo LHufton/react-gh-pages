@@ -426,13 +426,13 @@ label.radio .text {
   cursor: pointer;
 } */
 
- Create a custom radio button */
+ /* Create a custom radio button
  label.radio .checkmark {
   position: absolute;
   height: calc(var(--space-3) - var(--space-0));
   width: calc(var(--space-3) - var(--space-0));
   border-radius: 50% ;
-} 
+}   */
 
 /* When the radio button is checked, add a blue background */
 /* label.radio input:checked ~ .checkmark,
