@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.33b8dafa.css",
-    "main.js": "/react-gh-pages/static/js/main.49d8e2f1.js",
+    "main.js": "/react-gh-pages/static/js/main.42d3decc.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
     "static/media/LHuftonResume.pdf": "/react-gh-pages/static/media/LHuftonResume.bc7cb4957564d9c66a67.pdf",
+    "static/media/LhWeather-App.png": "/react-gh-pages/static/media/LhWeather-App.bd5f1a7ab20e12d903bc.png",
     "static/media/SYT.png": "/react-gh-pages/static/media/SYT.ff769dce0af556a6aecb.png",
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
     "static/media/GPT.svg": "/react-gh-pages/static/media/GPT.e053391f1d6b6ab80fcac20d5a1c69a0.svg",
@@ -21,7 +22,6 @@
     "static/media/Java.svg": "/react-gh-pages/static/media/Java.a351f739f47fda7a637b86ffa530d56a.svg",
     "static/media/AWS.svg": "/react-gh-pages/static/media/AWS.1baaa078f947505c36dc8ee7595f91da.svg",
     "static/media/React.svg": "/react-gh-pages/static/media/React.e68b35f4774979ae220b1d5d7b345b00.svg",
-    "static/media/Construction.svg": "/react-gh-pages/static/media/Construction.ab60f44382c0ec973857edf3b3a5a7c5.svg",
     "static/media/googleCloud.svg": "/react-gh-pages/static/media/googleCloud.e929444adcd04c02cd95f8e693a92db4.svg",
     "static/media/Python.svg": "/react-gh-pages/static/media/Python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/Miro.svg": "/react-gh-pages/static/media/Miro.c39a9c29249c37870bb49d9b786c5c82.svg",
@@ -43,10 +43,10 @@
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
     "main.33b8dafa.css.map": "/react-gh-pages/static/css/main.33b8dafa.css.map",
-    "main.49d8e2f1.js.map": "/react-gh-pages/static/js/main.49d8e2f1.js.map"
+    "main.42d3decc.js.map": "/react-gh-pages/static/js/main.42d3decc.js.map"
   },
   "entrypoints": [
     "static/css/main.33b8dafa.css",
-    "static/js/main.49d8e2f1.js"
+    "static/js/main.42d3decc.js"
   ]
 }
