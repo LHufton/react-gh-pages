@@ -19,6 +19,7 @@ import Mind from '../../images/Mind-project.png'
 import ReactIcon from '../../assets/React.svg'
 import Express from '../../assets/Express.svg'
 import LhWeather from '../../images/LhWeather-App.png'
+import Flights from '../../images/Flights.png'
 const projectsData = [
   {
     title: 'Simon',
@@ -34,9 +35,23 @@ const projectsData = [
     gitHubLink: 'https://github.com/LHufton/Simon'
   },
   {
+    title: 'Mongoose Flights',
+    img: Flights,
+    description: 'Book a trip with Mongoose Flights!',
+    technologies: [
+      { icon: Javascript, label: 'Javascript', type: 'svg' },
+      { icon: HTML, label: 'HTML', type: 'svg' },
+      { icon: CSS, label: 'CSS', type: 'svg' },
+      { icon: Express, label: 'Express', type: 'svg' },
+      { icon: Git, label: 'Git', type: 'svg' }
+    ],
+    link: 'https://flights-express-app-74bd06344918.herokuapp.com/',
+    gitHubLink: 'https://github.com/LHufton/u2_lab_mongoose_flights_part_1'
+  },
+  {
     title: 'Whatever the Weather',
     img: LhWeather,
-    description: 'Daily weather forecast for your location. Coming soon!',
+    description: 'Daily weather forecast for your location.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },

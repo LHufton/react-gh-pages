@@ -426,8 +426,8 @@ label.radio .text {
   cursor: pointer;
 } */
 
- /* Create a custom radio button
- label.radio .checkmark {
+/* Create a custom radio button
+label.radio .checkmark {
   position: absolute;
   height: calc(var(--space-3) - var(--space-0));
   width: calc(var(--space-3) - var(--space-0));
