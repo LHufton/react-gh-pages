@@ -1,27 +1,27 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Resume.css'
 import LHuftonResume from '../../images/LHuftonResume.pdf'
 
-const Resume = ({ enableAutoScroll }) => {
-  useEffect(() => {
-    if (enableAutoScroll) {
-      const scrollToResume = () => {
-        const resumeSection = document.getElementById('Resume')
-        if (resumeSection) {
-          const scrollDistance = resumeSection.offsetTop
-          window.scrollTo({
-            top: scrollDistance,
-            behavior: 'smooth'
-          })
-        }
-      }
+const Resume = () => {
+  // useEffect(() => {
+  //   if (enableAutoScroll) {
+  //     const scrollToResume = () => {
+  //       const resumeSection = document.getElementById('Resume')
+  //       if (resumeSection) {
+  //         const scrollDistance = resumeSection.offsetTop
+  //         window.scrollTo({
+  //           top: scrollDistance,
+  //           behavior: 'smooth'
+  //         })
+  //       }
+  //     }
 
-      const resumeLink = document.querySelector('a[href="#Resume"]')
-      if (resumeLink) {
-        resumeLink.addEventListener('click', scrollToResume)
-      }
-    }
-  }, [enableAutoScroll])
+  //     const resumeLink = document.querySelector('a[href="#Resume"]')
+  //     if (resumeLink) {
+  //       resumeLink.addEventListener('click', scrollToResume)
+  //     }
+  //   }
+  // }, [enableAutoScroll])
 
   return (
     <div id="Resume" className="intro">

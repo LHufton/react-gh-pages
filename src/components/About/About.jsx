@@ -1,14 +1,6 @@
 import React from 'react'
 
 import './About.css'
-
-// const scrollToTop = () => {
-//   window.scrollTo({
-//     top: 0,
-//     behavior: 'smooth'
-//   })
-// }
-
 const About = () => {
   return (
     <div id="About">
