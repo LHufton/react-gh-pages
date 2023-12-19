@@ -1,10 +1,6 @@
-
-
-
-
 #About {
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: left;
   justify-content: left;
   min-height: 50vh;
@@ -34,8 +30,8 @@ p {
   display: flex;
   position: relative;
   padding: 5px;
-  top: -300px;
-  margin-bottom: 100px;
+  top: 5ch;
+  margin-bottom: 5ch;
   justify-content: flex-end; 
   width: 100%;
 }

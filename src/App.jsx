@@ -19,7 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/react-gh-pages" element={<Hero />} />
             <Route path="/" element={<Hero />} />
-            <Route path="/About" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/resume" element={<Resume />} />
