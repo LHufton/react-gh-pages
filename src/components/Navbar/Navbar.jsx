@@ -8,7 +8,7 @@ const Navbar = () => {
       <header>
         <ul id="Navbar" className="shadow">
           <li>
-            <NavLink to="/home" activeclassname="active">
+            <NavLink to="/react-gh-pages" activeclassname="active">
               Home
             </NavLink>
           </li>

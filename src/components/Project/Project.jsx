@@ -24,7 +24,8 @@ const projectsData = [
   {
     title: 'Simon',
     img: Simon,
-    description: 'The classic Simon memory game',
+    description:
+      'The classic Simon memory game built with javascript, HTML and vanilla CSS deployed via Surge.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -37,7 +38,8 @@ const projectsData = [
   {
     title: 'Mongoose Flights',
     img: Flights,
-    description: 'Book a trip with Mongoose Flights!',
+    description:
+      'Book a trip with Mongoose Flights! Developed as a lab during my General Assembly course. Deployed via Heroku.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -51,7 +53,8 @@ const projectsData = [
   {
     title: 'Whatever the Weather',
     img: LhWeather,
-    description: 'Daily weather forecast for your location.',
+    description:
+      'Daily weather forecast for your location. Uses an API from OpenWeatherMap. Deployed via Heroku.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -65,7 +68,8 @@ const projectsData = [
   {
     title: 'Mind Project',
     img: Mind,
-    description: 'Habit tracker with a mindfulness twist.',
+    description:
+      'Habit tracker with a mindfulness twist. My goal was to develop an app that can benefit those with mental health issues. Deployed via Heroku.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -80,7 +84,7 @@ const projectsData = [
     title: 'Unpopular Opinions',
     img: UnpopularOpinions,
     description:
-      'A social media app for sharing unpopular opinions about science fiction movies.',
+      'A social media app for sharing unpopular opinions about science fiction movies. Built with two other developers as a group project for General Assembly. Deployed via Fly.io.',
     technologies: [
       { icon: Django, label: 'Django', type: 'svg' },
       { icon: Python, label: 'Python', type: 'svg' },
@@ -95,7 +99,8 @@ const projectsData = [
   {
     title: 'Tic Tac Toe',
     img: TicTacToe,
-    description: 'A Tic Tac Toe game',
+    description:
+      'A Tic Tac Toe game built with javascript, HTML and vanilla CSS deployed via Surge.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
@@ -110,7 +115,7 @@ const projectsData = [
     title: 'Share Your Thoughts',
     img: SYT,
     description:
-      'A MERN social media clone that encourages journaling and free-writing.',
+      'A MERN social media clone that encourages keeping a journal and free-writing. Developed as my capstone project for General Assembly. Deployed via Heroku.',
     technologies: [
       { icon: Javascript, label: 'Javascript', type: 'svg' },
       { icon: HTML, label: 'HTML', type: 'svg' },
