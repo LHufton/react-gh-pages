@@ -3,26 +3,6 @@ import './Resume.css'
 import LHuftonResume from '../../images/LHuftonResume.pdf'
 
 const Resume = () => {
-  // useEffect(() => {
-  //   if (enableAutoScroll) {
-  //     const scrollToResume = () => {
-  //       const resumeSection = document.getElementById('Resume')
-  //       if (resumeSection) {
-  //         const scrollDistance = resumeSection.offsetTop
-  //         window.scrollTo({
-  //           top: scrollDistance,
-  //           behavior: 'smooth'
-  //         })
-  //       }
-  //     }
-
-  //     const resumeLink = document.querySelector('a[href="#Resume"]')
-  //     if (resumeLink) {
-  //       resumeLink.addEventListener('click', scrollToResume)
-  //     }
-  //   }
-  // }, [enableAutoScroll])
-
   return (
     <div id="Resume" className="intro">
       <h1>Resumé</h1>
