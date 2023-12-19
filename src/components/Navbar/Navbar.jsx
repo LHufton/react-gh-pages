@@ -8,7 +8,7 @@ const Navbar = () => {
       <header>
         <ul id="Navbar" className="shadow">
           <li>
-            <NavLink to="/" activeclassname="active">
+            <NavLink to="/home" activeclassname="active">
               Home
             </NavLink>
           </li>

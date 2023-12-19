@@ -17,6 +17,7 @@ const App = () => {
         <Nav />
         <main style={{ padding: '0 3rem' }}>
           <Routes>
+            <Route path="/react-gh-pages" element={<Hero />} />
             <Route path="/" element={<Hero />} />
             <Route path="/About" element={<About />} />
             <Route path="/skills" element={<Skills />} />
