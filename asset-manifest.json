@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.33b8dafa.css",
-    "main.js": "/react-gh-pages/static/js/main.8f5a5ffb.js",
+    "main.css": "/react-gh-pages/static/css/main.94429886.css",
+    "main.js": "/react-gh-pages/static/js/main.016fbedf.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
+    "static/media/Kimber.jpg": "/react-gh-pages/static/media/Kimber.83618f78d498f4b4f754.jpg",
     "static/media/Flights.png": "/react-gh-pages/static/media/Flights.fdaff7813f2d6669de3c.png",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
-    "static/media/LHuftonResume.pdf": "/react-gh-pages/static/media/LHuftonResume.bc7cb4957564d9c66a67.pdf",
+    "static/media/LHuftonResume.pdf": "/react-gh-pages/static/media/LHuftonResume.907245c4d10720feca7e.pdf",
     "static/media/LhWeather-App.png": "/react-gh-pages/static/media/LhWeather-App.bd5f1a7ab20e12d903bc.png",
     "static/media/SYT.png": "/react-gh-pages/static/media/SYT.ff769dce0af556a6aecb.png",
     "static/media/Tic Tac Toe.png": "/react-gh-pages/static/media/Tic Tac Toe.00f1d047faa11376a6e6.png",
@@ -43,11 +44,11 @@
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
-    "main.33b8dafa.css.map": "/react-gh-pages/static/css/main.33b8dafa.css.map",
-    "main.8f5a5ffb.js.map": "/react-gh-pages/static/js/main.8f5a5ffb.js.map"
+    "main.94429886.css.map": "/react-gh-pages/static/css/main.94429886.css.map",
+    "main.016fbedf.js.map": "/react-gh-pages/static/js/main.016fbedf.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b8dafa.css",
-    "static/js/main.8f5a5ffb.js"
+    "static/css/main.94429886.css",
+    "static/js/main.016fbedf.js"
   ]
 }
