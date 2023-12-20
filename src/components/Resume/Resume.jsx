@@ -6,7 +6,6 @@ import LHuftonResume from '../../images/LHuftonResume.pdf'
 const Resume = () => {
   return (
     <div id="Resume" className="intro">
-      <h1>Luke Hufton</h1>
       <a
         href={LHuftonResume}
         download="LHuftonResume.pdf"
@@ -14,9 +13,11 @@ const Resume = () => {
       >
         <button className="Resume-btn">Download</button>
       </a>
+      <h1>Luke Hufton</h1>
       <p>
-        I am a highly self-motivated individual always looking for new
-        challenges.
+        I am an ambitious software developer, always learning and growing. I am
+        seeking a position that challenges me to become the best developer I can
+        be.
       </p>
 
       <div className="experience">

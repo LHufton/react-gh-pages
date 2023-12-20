@@ -1,11 +1,9 @@
-/* #Resume {
+/* 
+.download-resume {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    margin: 0 auto;
+    max-width: 25px;
+    padding: 1rem 0;
 } */
-
-.Resume-btn {
-    width: 20ch;
-}

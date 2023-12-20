@@ -240,8 +240,8 @@ strong {
 }
 
 /* ------------ UI elements -----------*/
-
-button,
+/* 
+button, */
 input[type="submit"] {
   background: var(--orange-400);
   padding: 1em 2em;

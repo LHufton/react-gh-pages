@@ -6,7 +6,7 @@
   min-height: 50vh;
 }
 
-p {
+/* p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start ;
@@ -16,7 +16,7 @@ p {
   color: var(--white);
   margin: 0;
   max-width: 45%;
-}
+} */
 
 .heading {
   font-size: 3rem;

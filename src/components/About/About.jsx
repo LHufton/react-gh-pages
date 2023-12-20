@@ -10,12 +10,12 @@ const About = () => {
         <h2>About me</h2>
 
         <p>
-          I am a highly driven individual with a penchant for learning and
-          solving problems. I enjoy using react.js and vanilla CSS to build
-          functional and responsive web applications. <br />I spend my free time
-          reading, listening to music, playing chess and hiking with my dog
-          Kimber. She makes sure I take some time away from coding. <br /> I am
-          currently looking for a role as an associate software engineer.
+          Hello! My name is Luke and I am a former entrepreneur who found his
+          way to software development. I excel at finding effective solutions to
+          problems both in life and in code. When I am not creating and
+          maintaining applications you can find me hiking with my dog Kimber,
+          playing chess or reading. I am currently seeking a position as an
+          associate software developer.
         </p>
       </div>
       <div className="dog-container">

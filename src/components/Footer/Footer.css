@@ -1,11 +1,10 @@
 footer {
   display: flex;
-  padding: 30px;
-  text-align: center;
+  justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  gap: 2rem;
+  padding: 1rem;
 }
-
   /* .container {
   display: flex;
   position: relative;
