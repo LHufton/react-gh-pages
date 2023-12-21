@@ -8,13 +8,14 @@ import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 import Resume from './components/Resume/Resume'
 import ResumePage from './components/ResumePage/ResumePage'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
     <Router>
       <React.StrictMode>
         <Nav />
-        <main style={{ padding: '0 3rem' }}>
+        <main>
           <Routes>
             <Route path="/react-gh-pages" element={<Hero />} />
             <Route path="/" element={<Hero />} />
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/resume-page" element={<ResumePage />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </main>
       </React.StrictMode>
     </Router>
