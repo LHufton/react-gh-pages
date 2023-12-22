@@ -17,12 +17,12 @@ const Contact = () => {
           id="email"
           type="email"
           name="email"
-          placeholder="Your email address"
+          placeholder="Email address"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
 
         <label htmlFor="message"></label>
-        <textarea id="message" name="message" placeholder="Your message" />
+        <textarea id="message" name="message" placeholder="Message" />
         <ValidationError
           prefix="Message"
           field="message"
