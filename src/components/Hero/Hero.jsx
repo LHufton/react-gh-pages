@@ -3,7 +3,6 @@ import './Hero.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import ProfilePic from '../../images/Profile.jpeg'
-import Footer from '../Footer/Footer'
 
 const Hero = () => {
   return (
@@ -34,9 +33,6 @@ const Hero = () => {
       </div>
       <div className="profile-container">
         <img id="Profile" src={ProfilePic} alt="Luke Hufton" />
-      </div>
-      <div>
-        <Footer />
       </div>
     </div>
   )
