@@ -6,3 +6,10 @@ footer {
   gap: 2rem;
   padding: 1rem;
 }
+
+
+.col-sm-5 copyright{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
