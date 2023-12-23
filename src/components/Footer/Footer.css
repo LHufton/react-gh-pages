@@ -1,4 +1,7 @@
 footer {
+  position: relative;
+  top: 1000px;
+  right: 75px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
