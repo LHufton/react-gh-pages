@@ -10,11 +10,9 @@ const About = () => {
         <h2>About me</h2>
 
         <p>
-          Hello! My name is Luke and I am a former entrepreneur <br />
-          who found his way to software development. I enjoy thinking outside of
-          the box to find solutions that are simple to understand. <br /> When I
-          am not creating and maintaining applications you can find me hiking
-          with my dog Kimber, playing chess or reading.
+          Hello! My name is Luke and I am an entrepreneur <br />
+          who found his way to software engineering. I would like to work for a
+          philanthropic company with humanitarian goals. <br />
           <br /> I am currently seeking a position as an associate software
           developer.
         </p>

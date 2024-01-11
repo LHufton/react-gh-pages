@@ -15,16 +15,6 @@
   font-weight: bold;
   /* margin-bottom: 5px; */
 }
-.contact-heading {
-  font-size: 44px;
-  margin: 0 auto;
-  font-weight: bold;
-  margin-bottom: 10px;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
 /* Styling for input fields */
 input[type="text"],
 input[type="email"],
@@ -39,10 +29,10 @@ textarea {
 }
 
 /* Styling for validation errors */
-.ValidationError {
+/* .ValidationError {
   color: red;
   font-size: 14px;
-}
+} */
 
  contact-sub-button {
   max-width: var(--space-6);
