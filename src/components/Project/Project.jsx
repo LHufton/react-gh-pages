@@ -45,7 +45,8 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Express, label: 'Express', type: 'svg' },
-      { icon: Git, label: 'Git', type: 'svg' }
+      { icon: Git, label: 'Git', type: 'svg' },
+      { icon: Heroku, label: 'Heroku', type: 'svg' }
     ],
     link: 'https://flights-express-app-74bd06344918.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/u2_lab_mongoose_flights_part_1'
@@ -60,7 +61,8 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
-      { icon: Git, label: 'Git', type: 'svg' }
+      { icon: Git, label: 'Git', type: 'svg' },
+      { icon: Heroku, label: 'Heroku', type: 'svg' }
     ],
     link: 'https://lhweather-app-91a74b2446f3.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/weather-app'
@@ -75,7 +77,8 @@ const projectsData = [
       { icon: HTML, label: 'HTML', type: 'svg' },
       { icon: CSS, label: 'CSS', type: 'svg' },
       { icon: Git, label: 'Git', type: 'svg' },
-      { icon: Express, label: 'Express', type: 'svg' }
+      { icon: Express, label: 'Express', type: 'svg' },
+      { icon: Heroku, label: 'Heroku', type: 'svg' }
     ],
     link: 'https://mind-project-24983a2b9795.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/mind-project'
@@ -112,7 +115,7 @@ const projectsData = [
     gitHubLink: 'https://github.com/LHufton/u1_hw_tic_tac_toe'
   },
   {
-    title: 'Share Your Thoughts',
+    title: "Let's Talk",
     img: SYT,
     description:
       'A MERN social media clone that encourages keeping a journal and free-writing. Developed as my capstone project for General Assembly. Deployed via Heroku.',
@@ -126,8 +129,8 @@ const projectsData = [
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
-    link: 'https://syt-frontend-1-687106a3c54f.herokuapp.com/',
-    gitHubLink: 'https://github.com/LHufton/ShareYourThoughts',
+    link: 'https://lets-talk-app-05322937f1c4.herokuapp.com/',
+    gitHubLink: 'https://github.com/LHufton/LetsTalk',
     linkIcon: Heroku
   }
 ]
