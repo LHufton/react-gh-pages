@@ -12,7 +12,7 @@ const About = () => {
         <p>
           Hello! My name is Luke and I am an entrepreneur <br />
           who found his way to software engineering. I would like to work for a
-          philanthropic company with humanitarian goals. <br />
+          company with humanitarian goals or a non-profit. <br />
           <br /> I am currently seeking a position as an associate software
           developer.
         </p>

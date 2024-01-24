@@ -13,6 +13,7 @@ import Git from '../../assets/Git.svg'
 import FlyIO from '../../assets/FlyIO.svg'
 import SYT from '../../images/SYT.png'
 import Mongodb from '../../assets/Mongodb.svg'
+import Trello from '../../assets/Trello.svg'
 import Heroku from '../../assets/Heroku.svg'
 import GH from '../../assets/GH.svg'
 import Mind from '../../images/Mind-project.png'
@@ -97,7 +98,8 @@ const projectsData = [
       { icon: FlyIO, label: 'FlyIO', type: 'svg' }
     ],
     link: 'https://unpopular-opinions-scifi.fly.dev/',
-    gitHubLink: 'https://github.com/LHufton/unpopular-opinion'
+    gitHubLink: 'https://github.com/LHufton/unpopular-opinion',
+    TrelloLink: 'https://trello.com/b/9EruGEqe/sci-fi-page'
   },
   {
     title: 'Tic Tac Toe',
@@ -127,11 +129,13 @@ const projectsData = [
       { icon: Git, label: 'Git', type: 'svg' },
       { icon: Express, label: 'Express', type: 'svg' },
       { icon: ReactIcon, label: 'ReactIcon', type: 'svg' },
+      { icon: Trello, label: 'Trello', type: 'svg' },
       { icon: Mongodb, label: 'MongoDB', type: 'svg' }
     ],
     link: 'https://lets-talk-app-05322937f1c4.herokuapp.com/',
     gitHubLink: 'https://github.com/LHufton/LetsTalk',
-    linkIcon: Heroku
+    linkIcon: Heroku,
+    trelloLink: 'https://trello.com/b/OHxXIJJp/lets-talk'
   }
 ]
 
@@ -158,6 +162,13 @@ const Project = () => {
                 rel="noopener noreferrer"
               >
                 <img src={GH} alt="GitHub" className="github-icon" />
+              </a>
+              <a
+                href={project.trelloLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Trello} alt="Trello" className="Trello-icon" />
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
