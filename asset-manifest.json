@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.d3128cb6.css",
-    "main.js": "/react-gh-pages/static/js/main.78626e15.js",
+    "main.js": "/react-gh-pages/static/js/main.e000a6b0.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
     "static/media/Flights.png": "/react-gh-pages/static/media/Flights.fdaff7813f2d6669de3c.png",
@@ -45,10 +45,10 @@
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
     "main.d3128cb6.css.map": "/react-gh-pages/static/css/main.d3128cb6.css.map",
-    "main.78626e15.js.map": "/react-gh-pages/static/js/main.78626e15.js.map"
+    "main.e000a6b0.js.map": "/react-gh-pages/static/js/main.e000a6b0.js.map"
   },
   "entrypoints": [
     "static/css/main.d3128cb6.css",
-    "static/js/main.78626e15.js"
+    "static/js/main.e000a6b0.js"
   ]
 }
