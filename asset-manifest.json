@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.7c453dc1.css",
-    "main.js": "/react-gh-pages/static/js/main.d83cff1b.js",
+    "main.css": "/react-gh-pages/static/css/main.d3128cb6.css",
+    "main.js": "/react-gh-pages/static/js/main.78626e15.js",
     "static/media/UnpopularOpinions.png": "/react-gh-pages/static/media/UnpopularOpinions.0b465c32db06508808a7.png",
     "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.c95d9bef76f23e91a364.jpeg",
-    "static/media/Kimber.jpg": "/react-gh-pages/static/media/Kimber.83618f78d498f4b4f754.jpg",
     "static/media/Flights.png": "/react-gh-pages/static/media/Flights.fdaff7813f2d6669de3c.png",
+    "static/media/Kimber.jpeg": "/react-gh-pages/static/media/Kimber.4449a6e99c59f1115d28.jpeg",
     "static/media/Simon.png": "/react-gh-pages/static/media/Simon.fb17168560375a23ab12.png",
     "static/media/LHuftonResume.pdf": "/react-gh-pages/static/media/LHuftonResume.48690d76e06590fb948d.pdf",
     "static/media/LhWeather-App.png": "/react-gh-pages/static/media/LhWeather-App.bd5f1a7ab20e12d903bc.png",
@@ -44,11 +44,11 @@
     "static/media/Vue.svg": "/react-gh-pages/static/media/Vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "static/media/Fastapi.svg": "/react-gh-pages/static/media/Fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "static/media/Azure.svg": "/react-gh-pages/static/media/Azure.e88b515dc44062c9fc0b92736d891ae1.svg",
-    "main.7c453dc1.css.map": "/react-gh-pages/static/css/main.7c453dc1.css.map",
-    "main.d83cff1b.js.map": "/react-gh-pages/static/js/main.d83cff1b.js.map"
+    "main.d3128cb6.css.map": "/react-gh-pages/static/css/main.d3128cb6.css.map",
+    "main.78626e15.js.map": "/react-gh-pages/static/js/main.78626e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c453dc1.css",
-    "static/js/main.d83cff1b.js"
+    "static/css/main.d3128cb6.css",
+    "static/js/main.78626e15.js"
   ]
 }
