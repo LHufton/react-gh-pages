@@ -30,7 +30,7 @@
   display: flex;
   position: relative;
   padding: 5px;
-  top: 5ch;
+  top: 4ch;
   margin-bottom: 5ch;
   justify-content: flex-end; 
   width: 100%;
@@ -43,7 +43,7 @@
   width: 80%;
   height: auto; 
   max-width: 500px;
-  max-height: 600px;
+  max-height: 700px;
   box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Kimber from '../../images/Kimber.jpg'
+import Kimber from '../../images/Kimber.jpeg'
 const About = () => {
   // Scroll to top function
 
@@ -10,9 +10,13 @@ const About = () => {
         <h2>About me</h2>
 
         <p>
-          Hello! My name is Luke and I am an entrepreneur <br />
-          who found his way to software engineering. I would like to work for a
-          company with humanitarian goals or a non-profit. <br />
+          Hello! My name is Luke, born in England and living in America. When I
+          am not creating new applications you can find me with my dog, Kimber,
+          hiking a trail. I enjoy playing chess, listening to music, reading and
+          playing video games. <br />
+          <br />I would like to work for a company that believes in bettering
+          our local communities and developing products to assist in people's
+          lives. <br />
           <br /> I am currently seeking a position as an associate software
           developer.
         </p>
